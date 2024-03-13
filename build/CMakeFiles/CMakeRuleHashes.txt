@@ -1,0 +1,15 @@
+# Hashes of file build rules.
+430baf6c2f964b3a8da2536994b05a33 glfw-3.3.9/CMakeFiles/uninstall
+7b8fc3a4e9927995360ca452fb25de0e glfw-3.3.9/src/CMakeFiles/update_mappings
+aec5299fd599181ced8d16176f4078bb glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-client-protocol.h
+3d03b4ee2d96b45ffde963e629e1a797 glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-protocol.c
+3e21546003affb2ca7c17c7710671421 glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-client-protocol.h
+6dcd393284b9c963227081eaf20fe944 glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-protocol.c
+317a6492c872be420a4949847bebde48 glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-client-protocol.h
+87803c7dbc1cc0a4b1c30a86d60f3dd4 glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-protocol.c
+e9bb12cf685a881fc2637c173833dcb0 glfw-3.3.9/src/wayland-viewporter-client-protocol.h
+23a9f0afc334162db4983a06c29271e2 glfw-3.3.9/src/wayland-viewporter-protocol.c
+91cf969959c2c9f3e77fcce468ca7fbd glfw-3.3.9/src/wayland-xdg-decoration-client-protocol.h
+b7ce690ae65a33d87728eeed0d42f679 glfw-3.3.9/src/wayland-xdg-decoration-protocol.c
+6c1bc2e7e7b9db185a16f6b74dba8dbd glfw-3.3.9/src/wayland-xdg-shell-client-protocol.h
+26a1762ddbd1eb1013b0328d9da0513c glfw-3.3.9/src/wayland-xdg-shell-protocol.c

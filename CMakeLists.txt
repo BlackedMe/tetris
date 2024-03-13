@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.22.1)
+set(sources src/main.cpp src/parser.cpp src/uniform.cpp src/program.cpp src/graphics.cpp)
+add_executable(main ${sources})
+add_subdirectory(glad)
+add_subdirectory(glfw-3.3.9)
+add_subdirectory(glm)
+target_include_directories(main PRIVATE src/include PRIVATE glad/include PRIVATE glfw-3.3.9/include PRIVATE glm)
+find_package(OpenGL REQUIRED)
+target_link_libraries(main glad glfw glm OpenGL::GL)
+

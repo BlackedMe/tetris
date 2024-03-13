@@ -1,0 +1,7 @@
+-I
+glad/include
+-I
+glfw-3.3.9/include
+-I
+glm
+-Isrc/include
