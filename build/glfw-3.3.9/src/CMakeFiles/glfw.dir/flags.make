@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/black/coding/test/glfw-3.3.9/include -I/home/black/coding/test/glfw-3.3.9/src -I/home/black/coding/test/build/glfw-3.3.9/src
+C_INCLUDES = -I/home/black/projects/tetris/glfw-3.3.9/include -I/home/black/projects/tetris/glfw-3.3.9/src -I/home/black/projects/tetris/build/glfw-3.3.9/src
 
 C_FLAGS = -fPIC -Wall -std=gnu99
 

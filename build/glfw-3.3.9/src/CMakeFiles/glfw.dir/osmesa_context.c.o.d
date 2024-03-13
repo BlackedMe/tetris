@@ -1,5 +1,5 @@
 glfw-3.3.9/src/CMakeFiles/glfw.dir/osmesa_context.c.o: \
- /home/black/coding/test/glfw-3.3.9/src/osmesa_context.c \
+ /home/black/projects/tetris/glfw-3.3.9/src/osmesa_context.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -43,13 +43,13 @@ glfw-3.3.9/src/CMakeFiles/glfw.dir/osmesa_context.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
- /home/black/coding/test/glfw-3.3.9/src/internal.h \
- /home/black/coding/test/build/glfw-3.3.9/src/glfw_config.h \
- /home/black/coding/test/glfw-3.3.9/src/../include/GLFW/glfw3.h \
+ /home/black/projects/tetris/glfw-3.3.9/src/internal.h \
+ /home/black/projects/tetris/build/glfw-3.3.9/src/glfw_config.h \
+ /home/black/projects/tetris/glfw-3.3.9/src/../include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/black/coding/test/glfw-3.3.9/src/wl_platform.h \
+ /home/black/projects/tetris/glfw-3.3.9/src/wl_platform.h \
  /usr/include/wayland-client.h /usr/include/wayland-client-core.h \
  /usr/include/wayland-util.h /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -75,7 +75,7 @@ glfw-3.3.9/src/CMakeFiles/glfw.dir/osmesa_context.c.o: \
  /usr/include/xkbcommon/xkbcommon-compose.h /usr/include/dlfcn.h \
  /usr/include/x86_64-linux-gnu/bits/dlfcn.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /home/black/coding/test/glfw-3.3.9/src/posix_thread.h \
+ /home/black/projects/tetris/glfw-3.3.9/src/posix_thread.h \
  /usr/include/pthread.h /usr/include/sched.h \
  /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
@@ -87,8 +87,8 @@ glfw-3.3.9/src/CMakeFiles/glfw.dir/osmesa_context.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
- /home/black/coding/test/glfw-3.3.9/src/posix_time.h \
- /home/black/coding/test/glfw-3.3.9/src/linux_joystick.h \
+ /home/black/projects/tetris/glfw-3.3.9/src/posix_time.h \
+ /home/black/projects/tetris/glfw-3.3.9/src/linux_joystick.h \
  /usr/include/linux/input.h /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
  /usr/include/x86_64-linux-gnu/bits/ioctls.h \
@@ -108,12 +108,12 @@ glfw-3.3.9/src/CMakeFiles/glfw.dir/osmesa_context.c.o: \
  /usr/include/asm-generic/posix_types.h \
  /usr/include/linux/input-event-codes.h /usr/include/linux/limits.h \
  /usr/include/regex.h \
- /home/black/coding/test/glfw-3.3.9/src/xkb_unicode.h \
- /home/black/coding/test/glfw-3.3.9/src/egl_context.h \
- /home/black/coding/test/glfw-3.3.9/src/osmesa_context.h \
- /home/black/coding/test/build/glfw-3.3.9/src/wayland-xdg-shell-client-protocol.h \
- /home/black/coding/test/build/glfw-3.3.9/src/wayland-xdg-decoration-client-protocol.h \
- /home/black/coding/test/build/glfw-3.3.9/src/wayland-viewporter-client-protocol.h \
- /home/black/coding/test/build/glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-client-protocol.h \
- /home/black/coding/test/build/glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-client-protocol.h \
- /home/black/coding/test/build/glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-client-protocol.h
+ /home/black/projects/tetris/glfw-3.3.9/src/xkb_unicode.h \
+ /home/black/projects/tetris/glfw-3.3.9/src/egl_context.h \
+ /home/black/projects/tetris/glfw-3.3.9/src/osmesa_context.h \
+ /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-xdg-shell-client-protocol.h \
+ /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-xdg-decoration-client-protocol.h \
+ /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-viewporter-client-protocol.h \
+ /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-client-protocol.h \
+ /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-client-protocol.h \
+ /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-client-protocol.h

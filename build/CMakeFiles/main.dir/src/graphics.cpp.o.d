@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/graphics.cpp.o: \
- /home/black/coding/test/src/graphics.cpp /usr/include/stdc-predef.h \
- /home/black/coding/test/glad/include/glad/glad.h \
- /home/black/coding/test/glad/include/KHR/khrplatform.h \
+ /home/black/projects/tetris/src/graphics.cpp /usr/include/stdc-predef.h \
+ /home/black/projects/tetris/glad/include/glad/glad.h \
+ /home/black/projects/tetris/glad/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -17,5 +17,5 @@ CMakeFiles/main.dir/src/graphics.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/black/coding/test/glfw-3.3.9/include/GLFW/glfw3.h \
+ /home/black/projects/tetris/glfw-3.3.9/include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h

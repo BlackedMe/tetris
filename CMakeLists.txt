@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22.1)
-set(sources src/main.cpp src/parser.cpp src/uniform.cpp src/program.cpp src/graphics.cpp)
+set(sources src/main.cpp src/parser.cpp src/uniform.cpp src/program.cpp src/graphics.cpp src/shapes.cpp)
 add_executable(main ${sources})
 add_subdirectory(glad)
 add_subdirectory(glfw-3.3.9)

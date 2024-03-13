@@ -1,7 +1,7 @@
 glfw-3.3.9/tests/CMakeFiles/threads.dir/threads.c.o: \
- /home/black/coding/test/glfw-3.3.9/tests/threads.c \
+ /home/black/projects/tetris/glfw-3.3.9/tests/threads.c \
  /usr/include/stdc-predef.h \
- /home/black/coding/test/glfw-3.3.9/deps/tinycthread.h \
+ /home/black/projects/tetris/glfw-3.3.9/deps/tinycthread.h \
  /usr/include/time.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -46,14 +46,14 @@ glfw-3.3.9/tests/CMakeFiles/threads.dir/threads.c.o: \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /home/black/coding/test/glfw-3.3.9/deps/glad/gl.h \
- /home/black/coding/test/glfw-3.3.9/deps/glad/khrplatform.h \
+ /home/black/projects/tetris/glfw-3.3.9/deps/glad/gl.h \
+ /home/black/projects/tetris/glfw-3.3.9/deps/glad/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/black/coding/test/glfw-3.3.9/include/GLFW/glfw3.h \
+ /home/black/projects/tetris/glfw-3.3.9/include/GLFW/glfw3.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \

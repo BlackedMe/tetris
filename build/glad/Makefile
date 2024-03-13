@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/black/coding/test
+CMAKE_SOURCE_DIR = /home/black/projects/tetris
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/black/coding/test/build
+CMAKE_BINARY_DIR = /home/black/projects/tetris/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/black/coding/test/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/black/coding/test/build/CMakeFiles /home/black/coding/test/build/glad//CMakeFiles/progress.marks
-	cd /home/black/coding/test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/coding/test/build/CMakeFiles 0
+	cd /home/black/projects/tetris/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles /home/black/projects/tetris/build/glad//CMakeFiles/progress.marks
+	cd /home/black/projects/tetris/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/black/coding/test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad/clean
+	cd /home/black/projects/tetris/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/black/coding/test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad/preinstall
+	cd /home/black/projects/tetris/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/black/coding/test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad/preinstall
+	cd /home/black/projects/tetris/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/black/coding/test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/black/projects/tetris/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 glad/CMakeFiles/glad.dir/rule:
-	cd /home/black/coding/test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad/CMakeFiles/glad.dir/rule
+	cd /home/black/projects/tetris/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad/CMakeFiles/glad.dir/rule
 .PHONY : glad/CMakeFiles/glad.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ glad: glad/CMakeFiles/glad.dir/rule
 
 # fast build rule for target.
 glad/fast:
-	cd /home/black/coding/test/build && $(MAKE) $(MAKESILENT) -f glad/CMakeFiles/glad.dir/build.make glad/CMakeFiles/glad.dir/build
+	cd /home/black/projects/tetris/build && $(MAKE) $(MAKESILENT) -f glad/CMakeFiles/glad.dir/build.make glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
 src/glad.o: src/glad.c.o
@@ -180,7 +180,7 @@ src/glad.o: src/glad.c.o
 
 # target to build an object file
 src/glad.c.o:
-	cd /home/black/coding/test/build && $(MAKE) $(MAKESILENT) -f glad/CMakeFiles/glad.dir/build.make glad/CMakeFiles/glad.dir/src/glad.c.o
+	cd /home/black/projects/tetris/build && $(MAKE) $(MAKESILENT) -f glad/CMakeFiles/glad.dir/build.make glad/CMakeFiles/glad.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
 src/glad.i: src/glad.c.i
@@ -188,7 +188,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
-	cd /home/black/coding/test/build && $(MAKE) $(MAKESILENT) -f glad/CMakeFiles/glad.dir/build.make glad/CMakeFiles/glad.dir/src/glad.c.i
+	cd /home/black/projects/tetris/build && $(MAKE) $(MAKESILENT) -f glad/CMakeFiles/glad.dir/build.make glad/CMakeFiles/glad.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -196,7 +196,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
-	cd /home/black/coding/test/build && $(MAKE) $(MAKESILENT) -f glad/CMakeFiles/glad.dir/build.make glad/CMakeFiles/glad.dir/src/glad.c.s
+	cd /home/black/projects/tetris/build && $(MAKE) $(MAKESILENT) -f glad/CMakeFiles/glad.dir/build.make glad/CMakeFiles/glad.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/black/coding/test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/black/projects/tetris/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

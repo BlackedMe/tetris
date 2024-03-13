@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/black/coding/test
+CMAKE_SOURCE_DIR = /home/black/projects/tetris
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/black/coding/test/build
+CMAKE_BINARY_DIR = /home/black/projects/tetris/build
 
 # Include any dependencies generated for this target.
 include glfw-3.3.9/src/CMakeFiles/glfw.dir/depend.make
@@ -70,352 +70,352 @@ include glfw-3.3.9/src/CMakeFiles/glfw.dir/progress.make
 include glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 
 glfw-3.3.9/src/wayland-xdg-shell-client-protocol.h: //usr/share/wayland-protocols/stable/xdg-shell/xdg-shell.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating wayland-xdg-shell-client-protocol.h"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/wayland-scanner client-header //usr/share/wayland-protocols/stable/xdg-shell/xdg-shell.xml /home/black/coding/test/build/glfw-3.3.9/src/wayland-xdg-shell-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating wayland-xdg-shell-client-protocol.h"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/wayland-scanner client-header //usr/share/wayland-protocols/stable/xdg-shell/xdg-shell.xml /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-xdg-shell-client-protocol.h
 
 glfw-3.3.9/src/wayland-xdg-shell-protocol.c: //usr/share/wayland-protocols/stable/xdg-shell/xdg-shell.xml
 glfw-3.3.9/src/wayland-xdg-shell-protocol.c: glfw-3.3.9/src/wayland-xdg-shell-client-protocol.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating wayland-xdg-shell-protocol.c"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/wayland-scanner public-code //usr/share/wayland-protocols/stable/xdg-shell/xdg-shell.xml /home/black/coding/test/build/glfw-3.3.9/src/wayland-xdg-shell-protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating wayland-xdg-shell-protocol.c"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/wayland-scanner public-code //usr/share/wayland-protocols/stable/xdg-shell/xdg-shell.xml /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-xdg-shell-protocol.c
 
 glfw-3.3.9/src/wayland-xdg-decoration-client-protocol.h: //usr/share/wayland-protocols/unstable/xdg-decoration/xdg-decoration-unstable-v1.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating wayland-xdg-decoration-client-protocol.h"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/wayland-scanner client-header //usr/share/wayland-protocols/unstable/xdg-decoration/xdg-decoration-unstable-v1.xml /home/black/coding/test/build/glfw-3.3.9/src/wayland-xdg-decoration-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating wayland-xdg-decoration-client-protocol.h"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/wayland-scanner client-header //usr/share/wayland-protocols/unstable/xdg-decoration/xdg-decoration-unstable-v1.xml /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-xdg-decoration-client-protocol.h
 
 glfw-3.3.9/src/wayland-xdg-decoration-protocol.c: //usr/share/wayland-protocols/unstable/xdg-decoration/xdg-decoration-unstable-v1.xml
 glfw-3.3.9/src/wayland-xdg-decoration-protocol.c: glfw-3.3.9/src/wayland-xdg-decoration-client-protocol.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating wayland-xdg-decoration-protocol.c"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/wayland-scanner public-code //usr/share/wayland-protocols/unstable/xdg-decoration/xdg-decoration-unstable-v1.xml /home/black/coding/test/build/glfw-3.3.9/src/wayland-xdg-decoration-protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating wayland-xdg-decoration-protocol.c"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/wayland-scanner public-code //usr/share/wayland-protocols/unstable/xdg-decoration/xdg-decoration-unstable-v1.xml /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-xdg-decoration-protocol.c
 
 glfw-3.3.9/src/wayland-viewporter-client-protocol.h: //usr/share/wayland-protocols/stable/viewporter/viewporter.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating wayland-viewporter-client-protocol.h"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/wayland-scanner client-header //usr/share/wayland-protocols/stable/viewporter/viewporter.xml /home/black/coding/test/build/glfw-3.3.9/src/wayland-viewporter-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating wayland-viewporter-client-protocol.h"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/wayland-scanner client-header //usr/share/wayland-protocols/stable/viewporter/viewporter.xml /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-viewporter-client-protocol.h
 
 glfw-3.3.9/src/wayland-viewporter-protocol.c: //usr/share/wayland-protocols/stable/viewporter/viewporter.xml
 glfw-3.3.9/src/wayland-viewporter-protocol.c: glfw-3.3.9/src/wayland-viewporter-client-protocol.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating wayland-viewporter-protocol.c"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/wayland-scanner public-code //usr/share/wayland-protocols/stable/viewporter/viewporter.xml /home/black/coding/test/build/glfw-3.3.9/src/wayland-viewporter-protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating wayland-viewporter-protocol.c"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/wayland-scanner public-code //usr/share/wayland-protocols/stable/viewporter/viewporter.xml /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-viewporter-protocol.c
 
 glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-client-protocol.h: //usr/share/wayland-protocols/unstable/relative-pointer/relative-pointer-unstable-v1.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating wayland-relative-pointer-unstable-v1-client-protocol.h"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/wayland-scanner client-header //usr/share/wayland-protocols/unstable/relative-pointer/relative-pointer-unstable-v1.xml /home/black/coding/test/build/glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating wayland-relative-pointer-unstable-v1-client-protocol.h"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/wayland-scanner client-header //usr/share/wayland-protocols/unstable/relative-pointer/relative-pointer-unstable-v1.xml /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-client-protocol.h
 
 glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-protocol.c: //usr/share/wayland-protocols/unstable/relative-pointer/relative-pointer-unstable-v1.xml
 glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-protocol.c: glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-client-protocol.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating wayland-relative-pointer-unstable-v1-protocol.c"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/wayland-scanner public-code //usr/share/wayland-protocols/unstable/relative-pointer/relative-pointer-unstable-v1.xml /home/black/coding/test/build/glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating wayland-relative-pointer-unstable-v1-protocol.c"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/wayland-scanner public-code //usr/share/wayland-protocols/unstable/relative-pointer/relative-pointer-unstable-v1.xml /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-protocol.c
 
 glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-client-protocol.h: //usr/share/wayland-protocols/unstable/pointer-constraints/pointer-constraints-unstable-v1.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating wayland-pointer-constraints-unstable-v1-client-protocol.h"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/wayland-scanner client-header //usr/share/wayland-protocols/unstable/pointer-constraints/pointer-constraints-unstable-v1.xml /home/black/coding/test/build/glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating wayland-pointer-constraints-unstable-v1-client-protocol.h"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/wayland-scanner client-header //usr/share/wayland-protocols/unstable/pointer-constraints/pointer-constraints-unstable-v1.xml /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-client-protocol.h
 
 glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-protocol.c: //usr/share/wayland-protocols/unstable/pointer-constraints/pointer-constraints-unstable-v1.xml
 glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-protocol.c: glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-client-protocol.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating wayland-pointer-constraints-unstable-v1-protocol.c"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/wayland-scanner public-code //usr/share/wayland-protocols/unstable/pointer-constraints/pointer-constraints-unstable-v1.xml /home/black/coding/test/build/glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating wayland-pointer-constraints-unstable-v1-protocol.c"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/wayland-scanner public-code //usr/share/wayland-protocols/unstable/pointer-constraints/pointer-constraints-unstable-v1.xml /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-protocol.c
 
 glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-client-protocol.h: //usr/share/wayland-protocols/unstable/idle-inhibit/idle-inhibit-unstable-v1.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating wayland-idle-inhibit-unstable-v1-client-protocol.h"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/wayland-scanner client-header //usr/share/wayland-protocols/unstable/idle-inhibit/idle-inhibit-unstable-v1.xml /home/black/coding/test/build/glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-client-protocol.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating wayland-idle-inhibit-unstable-v1-client-protocol.h"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/wayland-scanner client-header //usr/share/wayland-protocols/unstable/idle-inhibit/idle-inhibit-unstable-v1.xml /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-client-protocol.h
 
 glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-protocol.c: //usr/share/wayland-protocols/unstable/idle-inhibit/idle-inhibit-unstable-v1.xml
 glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-protocol.c: glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-client-protocol.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating wayland-idle-inhibit-unstable-v1-protocol.c"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/wayland-scanner public-code //usr/share/wayland-protocols/unstable/idle-inhibit/idle-inhibit-unstable-v1.xml /home/black/coding/test/build/glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating wayland-idle-inhibit-unstable-v1-protocol.c"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/wayland-scanner public-code //usr/share/wayland-protocols/unstable/idle-inhibit/idle-inhibit-unstable-v1.xml /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-protocol.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/context.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/context.c.o: ../glfw-3.3.9/src/context.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/context.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/context.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/context.c.o -MF CMakeFiles/glfw.dir/context.c.o.d -o CMakeFiles/glfw.dir/context.c.o -c /home/black/coding/test/glfw-3.3.9/src/context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/context.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/context.c.o -MF CMakeFiles/glfw.dir/context.c.o.d -o CMakeFiles/glfw.dir/context.c.o -c /home/black/projects/tetris/glfw-3.3.9/src/context.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/context.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /home/black/coding/test/glfw-3.3.9/src/context.c > CMakeFiles/glfw.dir/context.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /home/black/projects/tetris/glfw-3.3.9/src/context.c > CMakeFiles/glfw.dir/context.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/context.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /home/black/coding/test/glfw-3.3.9/src/context.c -o CMakeFiles/glfw.dir/context.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /home/black/projects/tetris/glfw-3.3.9/src/context.c -o CMakeFiles/glfw.dir/context.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/init.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/init.c.o: ../glfw-3.3.9/src/init.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/init.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/init.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/init.c.o -MF CMakeFiles/glfw.dir/init.c.o.d -o CMakeFiles/glfw.dir/init.c.o -c /home/black/coding/test/glfw-3.3.9/src/init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/init.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/init.c.o -MF CMakeFiles/glfw.dir/init.c.o.d -o CMakeFiles/glfw.dir/init.c.o -c /home/black/projects/tetris/glfw-3.3.9/src/init.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/init.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /home/black/coding/test/glfw-3.3.9/src/init.c > CMakeFiles/glfw.dir/init.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /home/black/projects/tetris/glfw-3.3.9/src/init.c > CMakeFiles/glfw.dir/init.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/init.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /home/black/coding/test/glfw-3.3.9/src/init.c -o CMakeFiles/glfw.dir/init.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /home/black/projects/tetris/glfw-3.3.9/src/init.c -o CMakeFiles/glfw.dir/init.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/input.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/input.c.o: ../glfw-3.3.9/src/input.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/input.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/input.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/input.c.o -MF CMakeFiles/glfw.dir/input.c.o.d -o CMakeFiles/glfw.dir/input.c.o -c /home/black/coding/test/glfw-3.3.9/src/input.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/input.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/input.c.o -MF CMakeFiles/glfw.dir/input.c.o.d -o CMakeFiles/glfw.dir/input.c.o -c /home/black/projects/tetris/glfw-3.3.9/src/input.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/input.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /home/black/coding/test/glfw-3.3.9/src/input.c > CMakeFiles/glfw.dir/input.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /home/black/projects/tetris/glfw-3.3.9/src/input.c > CMakeFiles/glfw.dir/input.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/input.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /home/black/coding/test/glfw-3.3.9/src/input.c -o CMakeFiles/glfw.dir/input.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /home/black/projects/tetris/glfw-3.3.9/src/input.c -o CMakeFiles/glfw.dir/input.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/monitor.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/monitor.c.o: ../glfw-3.3.9/src/monitor.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/monitor.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/monitor.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/monitor.c.o -MF CMakeFiles/glfw.dir/monitor.c.o.d -o CMakeFiles/glfw.dir/monitor.c.o -c /home/black/coding/test/glfw-3.3.9/src/monitor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/monitor.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/monitor.c.o -MF CMakeFiles/glfw.dir/monitor.c.o.d -o CMakeFiles/glfw.dir/monitor.c.o -c /home/black/projects/tetris/glfw-3.3.9/src/monitor.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/monitor.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /home/black/coding/test/glfw-3.3.9/src/monitor.c > CMakeFiles/glfw.dir/monitor.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /home/black/projects/tetris/glfw-3.3.9/src/monitor.c > CMakeFiles/glfw.dir/monitor.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/monitor.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /home/black/coding/test/glfw-3.3.9/src/monitor.c -o CMakeFiles/glfw.dir/monitor.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /home/black/projects/tetris/glfw-3.3.9/src/monitor.c -o CMakeFiles/glfw.dir/monitor.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/vulkan.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/vulkan.c.o: ../glfw-3.3.9/src/vulkan.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/vulkan.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/vulkan.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/vulkan.c.o -MF CMakeFiles/glfw.dir/vulkan.c.o.d -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/black/coding/test/glfw-3.3.9/src/vulkan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/vulkan.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/vulkan.c.o -MF CMakeFiles/glfw.dir/vulkan.c.o.d -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/black/projects/tetris/glfw-3.3.9/src/vulkan.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/vulkan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/vulkan.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /home/black/coding/test/glfw-3.3.9/src/vulkan.c > CMakeFiles/glfw.dir/vulkan.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /home/black/projects/tetris/glfw-3.3.9/src/vulkan.c > CMakeFiles/glfw.dir/vulkan.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/vulkan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/vulkan.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /home/black/coding/test/glfw-3.3.9/src/vulkan.c -o CMakeFiles/glfw.dir/vulkan.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /home/black/projects/tetris/glfw-3.3.9/src/vulkan.c -o CMakeFiles/glfw.dir/vulkan.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/window.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/window.c.o: ../glfw-3.3.9/src/window.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/window.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/window.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/window.c.o -MF CMakeFiles/glfw.dir/window.c.o.d -o CMakeFiles/glfw.dir/window.c.o -c /home/black/coding/test/glfw-3.3.9/src/window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/window.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/window.c.o -MF CMakeFiles/glfw.dir/window.c.o.d -o CMakeFiles/glfw.dir/window.c.o -c /home/black/projects/tetris/glfw-3.3.9/src/window.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/window.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /home/black/coding/test/glfw-3.3.9/src/window.c > CMakeFiles/glfw.dir/window.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /home/black/projects/tetris/glfw-3.3.9/src/window.c > CMakeFiles/glfw.dir/window.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/window.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /home/black/coding/test/glfw-3.3.9/src/window.c -o CMakeFiles/glfw.dir/window.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /home/black/projects/tetris/glfw-3.3.9/src/window.c -o CMakeFiles/glfw.dir/window.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_init.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_init.c.o: ../glfw-3.3.9/src/wl_init.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_init.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_init.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_init.c.o -MF CMakeFiles/glfw.dir/wl_init.c.o.d -o CMakeFiles/glfw.dir/wl_init.c.o -c /home/black/coding/test/glfw-3.3.9/src/wl_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_init.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_init.c.o -MF CMakeFiles/glfw.dir/wl_init.c.o.d -o CMakeFiles/glfw.dir/wl_init.c.o -c /home/black/projects/tetris/glfw-3.3.9/src/wl_init.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/wl_init.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/coding/test/glfw-3.3.9/src/wl_init.c > CMakeFiles/glfw.dir/wl_init.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/projects/tetris/glfw-3.3.9/src/wl_init.c > CMakeFiles/glfw.dir/wl_init.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/wl_init.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/coding/test/glfw-3.3.9/src/wl_init.c -o CMakeFiles/glfw.dir/wl_init.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/projects/tetris/glfw-3.3.9/src/wl_init.c -o CMakeFiles/glfw.dir/wl_init.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_monitor.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_monitor.c.o: ../glfw-3.3.9/src/wl_monitor.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_monitor.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_monitor.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_monitor.c.o -MF CMakeFiles/glfw.dir/wl_monitor.c.o.d -o CMakeFiles/glfw.dir/wl_monitor.c.o -c /home/black/coding/test/glfw-3.3.9/src/wl_monitor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_monitor.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_monitor.c.o -MF CMakeFiles/glfw.dir/wl_monitor.c.o.d -o CMakeFiles/glfw.dir/wl_monitor.c.o -c /home/black/projects/tetris/glfw-3.3.9/src/wl_monitor.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/wl_monitor.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/coding/test/glfw-3.3.9/src/wl_monitor.c > CMakeFiles/glfw.dir/wl_monitor.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/projects/tetris/glfw-3.3.9/src/wl_monitor.c > CMakeFiles/glfw.dir/wl_monitor.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/wl_monitor.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/coding/test/glfw-3.3.9/src/wl_monitor.c -o CMakeFiles/glfw.dir/wl_monitor.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/projects/tetris/glfw-3.3.9/src/wl_monitor.c -o CMakeFiles/glfw.dir/wl_monitor.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_window.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_window.c.o: ../glfw-3.3.9/src/wl_window.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_window.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_window.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_window.c.o -MF CMakeFiles/glfw.dir/wl_window.c.o.d -o CMakeFiles/glfw.dir/wl_window.c.o -c /home/black/coding/test/glfw-3.3.9/src/wl_window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_window.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_window.c.o -MF CMakeFiles/glfw.dir/wl_window.c.o.d -o CMakeFiles/glfw.dir/wl_window.c.o -c /home/black/projects/tetris/glfw-3.3.9/src/wl_window.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/wl_window.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/coding/test/glfw-3.3.9/src/wl_window.c > CMakeFiles/glfw.dir/wl_window.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/projects/tetris/glfw-3.3.9/src/wl_window.c > CMakeFiles/glfw.dir/wl_window.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wl_window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/wl_window.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/coding/test/glfw-3.3.9/src/wl_window.c -o CMakeFiles/glfw.dir/wl_window.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/projects/tetris/glfw-3.3.9/src/wl_window.c -o CMakeFiles/glfw.dir/wl_window.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_time.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_time.c.o: ../glfw-3.3.9/src/posix_time.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_time.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_time.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_time.c.o -MF CMakeFiles/glfw.dir/posix_time.c.o.d -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/black/coding/test/glfw-3.3.9/src/posix_time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_time.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_time.c.o -MF CMakeFiles/glfw.dir/posix_time.c.o.d -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/black/projects/tetris/glfw-3.3.9/src/posix_time.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/posix_time.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/coding/test/glfw-3.3.9/src/posix_time.c > CMakeFiles/glfw.dir/posix_time.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/projects/tetris/glfw-3.3.9/src/posix_time.c > CMakeFiles/glfw.dir/posix_time.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/posix_time.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/coding/test/glfw-3.3.9/src/posix_time.c -o CMakeFiles/glfw.dir/posix_time.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/projects/tetris/glfw-3.3.9/src/posix_time.c -o CMakeFiles/glfw.dir/posix_time.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_thread.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_thread.c.o: ../glfw-3.3.9/src/posix_thread.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_thread.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_thread.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_thread.c.o -MF CMakeFiles/glfw.dir/posix_thread.c.o.d -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/black/coding/test/glfw-3.3.9/src/posix_thread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_thread.c.o -MF CMakeFiles/glfw.dir/posix_thread.c.o.d -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/black/projects/tetris/glfw-3.3.9/src/posix_thread.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_thread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/posix_thread.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/coding/test/glfw-3.3.9/src/posix_thread.c > CMakeFiles/glfw.dir/posix_thread.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/projects/tetris/glfw-3.3.9/src/posix_thread.c > CMakeFiles/glfw.dir/posix_thread.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/posix_thread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/posix_thread.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/coding/test/glfw-3.3.9/src/posix_thread.c -o CMakeFiles/glfw.dir/posix_thread.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/projects/tetris/glfw-3.3.9/src/posix_thread.c -o CMakeFiles/glfw.dir/posix_thread.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: ../glfw-3.3.9/src/xkb_unicode.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/xkb_unicode.c.o -MF CMakeFiles/glfw.dir/xkb_unicode.c.o.d -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/black/coding/test/glfw-3.3.9/src/xkb_unicode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/xkb_unicode.c.o -MF CMakeFiles/glfw.dir/xkb_unicode.c.o.d -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/black/projects/tetris/glfw-3.3.9/src/xkb_unicode.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/xkb_unicode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/xkb_unicode.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/coding/test/glfw-3.3.9/src/xkb_unicode.c > CMakeFiles/glfw.dir/xkb_unicode.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/projects/tetris/glfw-3.3.9/src/xkb_unicode.c > CMakeFiles/glfw.dir/xkb_unicode.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/xkb_unicode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/xkb_unicode.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/coding/test/glfw-3.3.9/src/xkb_unicode.c -o CMakeFiles/glfw.dir/xkb_unicode.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/projects/tetris/glfw-3.3.9/src/xkb_unicode.c -o CMakeFiles/glfw.dir/xkb_unicode.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/egl_context.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/egl_context.c.o: ../glfw-3.3.9/src/egl_context.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/egl_context.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/egl_context.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/egl_context.c.o -MF CMakeFiles/glfw.dir/egl_context.c.o.d -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/black/coding/test/glfw-3.3.9/src/egl_context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/egl_context.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/egl_context.c.o -MF CMakeFiles/glfw.dir/egl_context.c.o.d -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/black/projects/tetris/glfw-3.3.9/src/egl_context.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/egl_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/egl_context.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /home/black/coding/test/glfw-3.3.9/src/egl_context.c > CMakeFiles/glfw.dir/egl_context.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /home/black/projects/tetris/glfw-3.3.9/src/egl_context.c > CMakeFiles/glfw.dir/egl_context.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/egl_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/egl_context.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /home/black/coding/test/glfw-3.3.9/src/egl_context.c -o CMakeFiles/glfw.dir/egl_context.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /home/black/projects/tetris/glfw-3.3.9/src/egl_context.c -o CMakeFiles/glfw.dir/egl_context.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/osmesa_context.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/osmesa_context.c.o: ../glfw-3.3.9/src/osmesa_context.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/osmesa_context.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/osmesa_context.c.o -MF CMakeFiles/glfw.dir/osmesa_context.c.o.d -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/black/coding/test/glfw-3.3.9/src/osmesa_context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/osmesa_context.c.o -MF CMakeFiles/glfw.dir/osmesa_context.c.o.d -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/black/projects/tetris/glfw-3.3.9/src/osmesa_context.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/osmesa_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/osmesa_context.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /home/black/coding/test/glfw-3.3.9/src/osmesa_context.c > CMakeFiles/glfw.dir/osmesa_context.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /home/black/projects/tetris/glfw-3.3.9/src/osmesa_context.c > CMakeFiles/glfw.dir/osmesa_context.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/osmesa_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/osmesa_context.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /home/black/coding/test/glfw-3.3.9/src/osmesa_context.c -o CMakeFiles/glfw.dir/osmesa_context.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /home/black/projects/tetris/glfw-3.3.9/src/osmesa_context.c -o CMakeFiles/glfw.dir/osmesa_context.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.o: glfw-3.3.9/src/wayland-xdg-shell-protocol.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.o -MF CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.o.d -o CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.o -c /home/black/coding/test/build/glfw-3.3.9/src/wayland-xdg-shell-protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.o -MF CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.o.d -o CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.o -c /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-xdg-shell-protocol.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/coding/test/build/glfw-3.3.9/src/wayland-xdg-shell-protocol.c > CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-xdg-shell-protocol.c > CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/coding/test/build/glfw-3.3.9/src/wayland-xdg-shell-protocol.c -o CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-xdg-shell-protocol.c -o CMakeFiles/glfw.dir/wayland-xdg-shell-protocol.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.o: glfw-3.3.9/src/wayland-xdg-decoration-protocol.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.o -MF CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.o.d -o CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.o -c /home/black/coding/test/build/glfw-3.3.9/src/wayland-xdg-decoration-protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.o -MF CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.o.d -o CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.o -c /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-xdg-decoration-protocol.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/coding/test/build/glfw-3.3.9/src/wayland-xdg-decoration-protocol.c > CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-xdg-decoration-protocol.c > CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/coding/test/build/glfw-3.3.9/src/wayland-xdg-decoration-protocol.c -o CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-xdg-decoration-protocol.c -o CMakeFiles/glfw.dir/wayland-xdg-decoration-protocol.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.o: glfw-3.3.9/src/wayland-viewporter-protocol.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.o -MF CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.o.d -o CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.o -c /home/black/coding/test/build/glfw-3.3.9/src/wayland-viewporter-protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.o -MF CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.o.d -o CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.o -c /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-viewporter-protocol.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/coding/test/build/glfw-3.3.9/src/wayland-viewporter-protocol.c > CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-viewporter-protocol.c > CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/coding/test/build/glfw-3.3.9/src/wayland-viewporter-protocol.c -o CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-viewporter-protocol.c -o CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.o: glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-protocol.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.o -MF CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.o.d -o CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.o -c /home/black/coding/test/build/glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.o -MF CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.o.d -o CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.o -c /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-protocol.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/coding/test/build/glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-protocol.c > CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-protocol.c > CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/coding/test/build/glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-protocol.c -o CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-relative-pointer-unstable-v1-protocol.c -o CMakeFiles/glfw.dir/wayland-relative-pointer-unstable-v1-protocol.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.o: glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-protocol.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.o -MF CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.o.d -o CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.o -c /home/black/coding/test/build/glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.o -MF CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.o.d -o CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.o -c /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-protocol.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/coding/test/build/glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-protocol.c > CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-protocol.c > CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/coding/test/build/glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-protocol.c -o CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-pointer-constraints-unstable-v1-protocol.c -o CMakeFiles/glfw.dir/wayland-pointer-constraints-unstable-v1-protocol.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.o: glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-protocol.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.o -MF CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.o.d -o CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.o -c /home/black/coding/test/build/glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.o -MF CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.o.d -o CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.o -c /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-protocol.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/coding/test/build/glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-protocol.c > CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-protocol.c > CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/coding/test/build/glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-protocol.c -o CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/projects/tetris/build/glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-protocol.c -o CMakeFiles/glfw.dir/wayland-idle-inhibit-unstable-v1-protocol.c.s
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/linux_joystick.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/flags.make
 glfw-3.3.9/src/CMakeFiles/glfw.dir/linux_joystick.c.o: ../glfw-3.3.9/src/linux_joystick.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/linux_joystick.c.o: glfw-3.3.9/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/linux_joystick.c.o -MF CMakeFiles/glfw.dir/linux_joystick.c.o.d -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/black/coding/test/glfw-3.3.9/src/linux_joystick.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object glfw-3.3.9/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/src/CMakeFiles/glfw.dir/linux_joystick.c.o -MF CMakeFiles/glfw.dir/linux_joystick.c.o.d -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/black/projects/tetris/glfw-3.3.9/src/linux_joystick.c
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/linux_joystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/linux_joystick.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/coding/test/glfw-3.3.9/src/linux_joystick.c > CMakeFiles/glfw.dir/linux_joystick.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/projects/tetris/glfw-3.3.9/src/linux_joystick.c > CMakeFiles/glfw.dir/linux_joystick.c.i
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/linux_joystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/linux_joystick.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/coding/test/glfw-3.3.9/src/linux_joystick.c -o CMakeFiles/glfw.dir/linux_joystick.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/projects/tetris/glfw-3.3.9/src/linux_joystick.c -o CMakeFiles/glfw.dir/linux_joystick.c.s
 
 # Object files for target glfw
 glfw_OBJECTS = \
@@ -467,16 +467,16 @@ glfw-3.3.9/src/libglfw3.a: glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-idle-inhib
 glfw-3.3.9/src/libglfw3.a: glfw-3.3.9/src/CMakeFiles/glfw.dir/linux_joystick.c.o
 glfw-3.3.9/src/libglfw3.a: glfw-3.3.9/src/CMakeFiles/glfw.dir/build.make
 glfw-3.3.9/src/libglfw3.a: glfw-3.3.9/src/CMakeFiles/glfw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking C static library libglfw3.a"
-	cd /home/black/coding/test/build/glfw-3.3.9/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean_target.cmake
-	cd /home/black/coding/test/build/glfw-3.3.9/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking C static library libglfw3.a"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean_target.cmake
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 glfw-3.3.9/src/CMakeFiles/glfw.dir/build: glfw-3.3.9/src/libglfw3.a
 .PHONY : glfw-3.3.9/src/CMakeFiles/glfw.dir/build
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/clean:
-	cd /home/black/coding/test/build/glfw-3.3.9/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean.cmake
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean.cmake
 .PHONY : glfw-3.3.9/src/CMakeFiles/glfw.dir/clean
 
 glfw-3.3.9/src/CMakeFiles/glfw.dir/depend: glfw-3.3.9/src/wayland-idle-inhibit-unstable-v1-client-protocol.h
@@ -491,6 +491,6 @@ glfw-3.3.9/src/CMakeFiles/glfw.dir/depend: glfw-3.3.9/src/wayland-xdg-decoration
 glfw-3.3.9/src/CMakeFiles/glfw.dir/depend: glfw-3.3.9/src/wayland-xdg-decoration-protocol.c
 glfw-3.3.9/src/CMakeFiles/glfw.dir/depend: glfw-3.3.9/src/wayland-xdg-shell-client-protocol.h
 glfw-3.3.9/src/CMakeFiles/glfw.dir/depend: glfw-3.3.9/src/wayland-xdg-shell-protocol.c
-	cd /home/black/coding/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/coding/test /home/black/coding/test/glfw-3.3.9/src /home/black/coding/test/build /home/black/coding/test/build/glfw-3.3.9/src /home/black/coding/test/build/glfw-3.3.9/src/CMakeFiles/glfw.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/black/projects/tetris/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/projects/tetris /home/black/projects/tetris/glfw-3.3.9/src /home/black/projects/tetris/build /home/black/projects/tetris/build/glfw-3.3.9/src /home/black/projects/tetris/build/glfw-3.3.9/src/CMakeFiles/glfw.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : glfw-3.3.9/src/CMakeFiles/glfw.dir/depend
 

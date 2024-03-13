@@ -1,4 +1,4 @@
-# Install script for directory: /home/black/coding/test/glm/glm
+# Install script for directory: /home/black/projects/tetris/glm/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

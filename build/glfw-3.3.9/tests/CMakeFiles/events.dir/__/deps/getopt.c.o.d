@@ -1,7 +1,7 @@
 glfw-3.3.9/tests/CMakeFiles/events.dir/__/deps/getopt.c.o: \
- /home/black/coding/test/glfw-3.3.9/deps/getopt.c \
+ /home/black/projects/tetris/glfw-3.3.9/deps/getopt.c \
  /usr/include/stdc-predef.h \
- /home/black/coding/test/glfw-3.3.9/deps/getopt.h \
+ /home/black/projects/tetris/glfw-3.3.9/deps/getopt.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

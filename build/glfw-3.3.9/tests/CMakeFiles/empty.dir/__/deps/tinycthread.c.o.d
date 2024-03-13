@@ -1,7 +1,7 @@
 glfw-3.3.9/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o: \
- /home/black/coding/test/glfw-3.3.9/deps/tinycthread.c \
+ /home/black/projects/tetris/glfw-3.3.9/deps/tinycthread.c \
  /usr/include/stdc-predef.h \
- /home/black/coding/test/glfw-3.3.9/deps/tinycthread.h \
+ /home/black/projects/tetris/glfw-3.3.9/deps/tinycthread.h \
  /usr/include/time.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

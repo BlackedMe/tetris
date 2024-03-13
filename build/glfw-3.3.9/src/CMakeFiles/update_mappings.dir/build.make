@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/black/coding/test
+CMAKE_SOURCE_DIR = /home/black/projects/tetris
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/black/coding/test/build
+CMAKE_BINARY_DIR = /home/black/projects/tetris/build
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include glfw-3.3.9/src/CMakeFiles/update_mappings.dir/compiler_depend.make
 include glfw-3.3.9/src/CMakeFiles/update_mappings.dir/progress.make
 
 glfw-3.3.9/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /home/black/coding/test/glfw-3.3.9/src && /usr/bin/cmake -P /home/black/coding/test/glfw-3.3.9/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /home/black/projects/tetris/glfw-3.3.9/src && /usr/bin/cmake -P /home/black/projects/tetris/glfw-3.3.9/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: glfw-3.3.9/src/CMakeFiles/update_mappings
 update_mappings: glfw-3.3.9/src/CMakeFiles/update_mappings.dir/build.make
@@ -79,10 +79,10 @@ glfw-3.3.9/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : glfw-3.3.9/src/CMakeFiles/update_mappings.dir/build
 
 glfw-3.3.9/src/CMakeFiles/update_mappings.dir/clean:
-	cd /home/black/coding/test/build/glfw-3.3.9/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd /home/black/projects/tetris/build/glfw-3.3.9/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : glfw-3.3.9/src/CMakeFiles/update_mappings.dir/clean
 
 glfw-3.3.9/src/CMakeFiles/update_mappings.dir/depend:
-	cd /home/black/coding/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/coding/test /home/black/coding/test/glfw-3.3.9/src /home/black/coding/test/build /home/black/coding/test/build/glfw-3.3.9/src /home/black/coding/test/build/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/black/projects/tetris/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/projects/tetris /home/black/projects/tetris/glfw-3.3.9/src /home/black/projects/tetris/build /home/black/projects/tetris/build/glfw-3.3.9/src /home/black/projects/tetris/build/glfw-3.3.9/src/CMakeFiles/update_mappings.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : glfw-3.3.9/src/CMakeFiles/update_mappings.dir/depend
 

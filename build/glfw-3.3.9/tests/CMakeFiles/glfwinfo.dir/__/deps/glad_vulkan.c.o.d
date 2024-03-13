@@ -1,5 +1,5 @@
 glfw-3.3.9/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.o: \
- /home/black/coding/test/glfw-3.3.9/deps/glad_vulkan.c \
+ /home/black/projects/tetris/glfw-3.3.9/deps/glad_vulkan.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -51,8 +51,8 @@ glfw-3.3.9/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/black/coding/test/glfw-3.3.9/deps/glad/vulkan.h \
- /home/black/coding/test/glfw-3.3.9/deps/glad/vk_platform.h \
+ /home/black/projects/tetris/glfw-3.3.9/deps/glad/vulkan.h \
+ /home/black/projects/tetris/glfw-3.3.9/deps/glad/vk_platform.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h

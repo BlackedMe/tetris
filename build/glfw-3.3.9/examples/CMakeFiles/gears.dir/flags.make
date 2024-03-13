@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/black/coding/test/glfw-3.3.9/deps -I/home/black/coding/test/glfw-3.3.9/include
+C_INCLUDES = -I/home/black/projects/tetris/glfw-3.3.9/deps -I/home/black/projects/tetris/glfw-3.3.9/include
 
 C_FLAGS = -std=gnu99
 

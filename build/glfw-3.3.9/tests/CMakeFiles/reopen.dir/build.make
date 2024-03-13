@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/black/coding/test
+CMAKE_SOURCE_DIR = /home/black/projects/tetris
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/black/coding/test/build
+CMAKE_BINARY_DIR = /home/black/projects/tetris/build
 
 # Include any dependencies generated for this target.
 include glfw-3.3.9/tests/CMakeFiles/reopen.dir/depend.make
@@ -72,30 +72,30 @@ include glfw-3.3.9/tests/CMakeFiles/reopen.dir/flags.make
 glfw-3.3.9/tests/CMakeFiles/reopen.dir/reopen.c.o: glfw-3.3.9/tests/CMakeFiles/reopen.dir/flags.make
 glfw-3.3.9/tests/CMakeFiles/reopen.dir/reopen.c.o: ../glfw-3.3.9/tests/reopen.c
 glfw-3.3.9/tests/CMakeFiles/reopen.dir/reopen.c.o: glfw-3.3.9/tests/CMakeFiles/reopen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw-3.3.9/tests/CMakeFiles/reopen.dir/reopen.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/tests/CMakeFiles/reopen.dir/reopen.c.o -MF CMakeFiles/reopen.dir/reopen.c.o.d -o CMakeFiles/reopen.dir/reopen.c.o -c /home/black/coding/test/glfw-3.3.9/tests/reopen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw-3.3.9/tests/CMakeFiles/reopen.dir/reopen.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/tests/CMakeFiles/reopen.dir/reopen.c.o -MF CMakeFiles/reopen.dir/reopen.c.o.d -o CMakeFiles/reopen.dir/reopen.c.o -c /home/black/projects/tetris/glfw-3.3.9/tests/reopen.c
 
 glfw-3.3.9/tests/CMakeFiles/reopen.dir/reopen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/reopen.dir/reopen.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/coding/test/glfw-3.3.9/tests/reopen.c > CMakeFiles/reopen.dir/reopen.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/projects/tetris/glfw-3.3.9/tests/reopen.c > CMakeFiles/reopen.dir/reopen.c.i
 
 glfw-3.3.9/tests/CMakeFiles/reopen.dir/reopen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/reopen.dir/reopen.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/coding/test/glfw-3.3.9/tests/reopen.c -o CMakeFiles/reopen.dir/reopen.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/projects/tetris/glfw-3.3.9/tests/reopen.c -o CMakeFiles/reopen.dir/reopen.c.s
 
 glfw-3.3.9/tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.o: glfw-3.3.9/tests/CMakeFiles/reopen.dir/flags.make
 glfw-3.3.9/tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.o: ../glfw-3.3.9/deps/glad_gl.c
 glfw-3.3.9/tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.o: glfw-3.3.9/tests/CMakeFiles/reopen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw-3.3.9/tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.o -MF CMakeFiles/reopen.dir/__/deps/glad_gl.c.o.d -o CMakeFiles/reopen.dir/__/deps/glad_gl.c.o -c /home/black/coding/test/glfw-3.3.9/deps/glad_gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw-3.3.9/tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.o"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.o -MF CMakeFiles/reopen.dir/__/deps/glad_gl.c.o.d -o CMakeFiles/reopen.dir/__/deps/glad_gl.c.o -c /home/black/projects/tetris/glfw-3.3.9/deps/glad_gl.c
 
 glfw-3.3.9/tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/reopen.dir/__/deps/glad_gl.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/coding/test/glfw-3.3.9/deps/glad_gl.c > CMakeFiles/reopen.dir/__/deps/glad_gl.c.i
+	cd /home/black/projects/tetris/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/projects/tetris/glfw-3.3.9/deps/glad_gl.c > CMakeFiles/reopen.dir/__/deps/glad_gl.c.i
 
 glfw-3.3.9/tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/reopen.dir/__/deps/glad_gl.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/coding/test/glfw-3.3.9/deps/glad_gl.c -o CMakeFiles/reopen.dir/__/deps/glad_gl.c.s
+	cd /home/black/projects/tetris/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/projects/tetris/glfw-3.3.9/deps/glad_gl.c -o CMakeFiles/reopen.dir/__/deps/glad_gl.c.s
 
 # Object files for target reopen
 reopen_OBJECTS = \
@@ -116,18 +116,18 @@ glfw-3.3.9/tests/reopen: /usr/lib/x86_64-linux-gnu/libwayland-client.so
 glfw-3.3.9/tests/reopen: /usr/lib/x86_64-linux-gnu/libwayland-cursor.so
 glfw-3.3.9/tests/reopen: /usr/lib/x86_64-linux-gnu/libwayland-egl.so
 glfw-3.3.9/tests/reopen: glfw-3.3.9/tests/CMakeFiles/reopen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable reopen"
-	cd /home/black/coding/test/build/glfw-3.3.9/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reopen.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable reopen"
+	cd /home/black/projects/tetris/build/glfw-3.3.9/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reopen.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 glfw-3.3.9/tests/CMakeFiles/reopen.dir/build: glfw-3.3.9/tests/reopen
 .PHONY : glfw-3.3.9/tests/CMakeFiles/reopen.dir/build
 
 glfw-3.3.9/tests/CMakeFiles/reopen.dir/clean:
-	cd /home/black/coding/test/build/glfw-3.3.9/tests && $(CMAKE_COMMAND) -P CMakeFiles/reopen.dir/cmake_clean.cmake
+	cd /home/black/projects/tetris/build/glfw-3.3.9/tests && $(CMAKE_COMMAND) -P CMakeFiles/reopen.dir/cmake_clean.cmake
 .PHONY : glfw-3.3.9/tests/CMakeFiles/reopen.dir/clean
 
 glfw-3.3.9/tests/CMakeFiles/reopen.dir/depend:
-	cd /home/black/coding/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/coding/test /home/black/coding/test/glfw-3.3.9/tests /home/black/coding/test/build /home/black/coding/test/build/glfw-3.3.9/tests /home/black/coding/test/build/glfw-3.3.9/tests/CMakeFiles/reopen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/black/projects/tetris/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/projects/tetris /home/black/projects/tetris/glfw-3.3.9/tests /home/black/projects/tetris/build /home/black/projects/tetris/build/glfw-3.3.9/tests /home/black/projects/tetris/build/glfw-3.3.9/tests/CMakeFiles/reopen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : glfw-3.3.9/tests/CMakeFiles/reopen.dir/depend
 
