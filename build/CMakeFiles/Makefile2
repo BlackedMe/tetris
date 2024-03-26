@@ -257,12 +257,12 @@ CMakeFiles/main.dir/all: glad/CMakeFiles/glad.dir/all
 CMakeFiles/main.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=57,58,59,60,61 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=57,58,59,60,61,62 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
@@ -283,12 +283,12 @@ CMakeFiles/main.dir/clean:
 glad/CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f glad/CMakeFiles/glad.dir/build.make glad/CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f glad/CMakeFiles/glad.dir/build.make glad/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=17,18 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=17 "Built target glad"
 .PHONY : glad/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
 glad/CMakeFiles/glad.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad/CMakeFiles/glad.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glad/CMakeFiles/glad.dir/rule
@@ -361,12 +361,12 @@ glfw-3.3.9/src/CMakeFiles/update_mappings.dir/clean:
 glfw-3.3.9/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f glfw-3.3.9/src/CMakeFiles/glfw.dir/build.make glfw-3.3.9/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw-3.3.9/src/CMakeFiles/glfw.dir/build.make glfw-3.3.9/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41 "Built target glfw"
 .PHONY : glfw-3.3.9/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/src/CMakeFiles/glfw.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/src/CMakeFiles/glfw.dir/rule
@@ -392,7 +392,7 @@ glfw-3.3.9/examples/CMakeFiles/boing.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/examples/CMakeFiles/boing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/examples/CMakeFiles/boing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/examples/CMakeFiles/boing.dir/rule
@@ -418,7 +418,7 @@ glfw-3.3.9/examples/CMakeFiles/gears.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/examples/CMakeFiles/gears.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/examples/CMakeFiles/gears.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/examples/CMakeFiles/gears.dir/rule
@@ -439,12 +439,12 @@ glfw-3.3.9/examples/CMakeFiles/gears.dir/clean:
 glfw-3.3.9/examples/CMakeFiles/heightmap.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw-3.3.9/examples/CMakeFiles/heightmap.dir/build.make glfw-3.3.9/examples/CMakeFiles/heightmap.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw-3.3.9/examples/CMakeFiles/heightmap.dir/build.make glfw-3.3.9/examples/CMakeFiles/heightmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=46,47 "Built target heightmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=45,46 "Built target heightmap"
 .PHONY : glfw-3.3.9/examples/CMakeFiles/heightmap.dir/all
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/examples/CMakeFiles/heightmap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/examples/CMakeFiles/heightmap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/examples/CMakeFiles/heightmap.dir/rule
@@ -470,7 +470,7 @@ glfw-3.3.9/examples/CMakeFiles/offscreen.dir/all: glfw-3.3.9/src/CMakeFiles/glfw
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/examples/CMakeFiles/offscreen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/examples/CMakeFiles/offscreen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/examples/CMakeFiles/offscreen.dir/rule
@@ -496,7 +496,7 @@ glfw-3.3.9/examples/CMakeFiles/particles.dir/all: glfw-3.3.9/src/CMakeFiles/glfw
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/examples/CMakeFiles/particles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/examples/CMakeFiles/particles.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/examples/CMakeFiles/particles.dir/rule
@@ -522,7 +522,7 @@ glfw-3.3.9/examples/CMakeFiles/sharing.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.d
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/examples/CMakeFiles/sharing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/examples/CMakeFiles/sharing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/examples/CMakeFiles/sharing.dir/rule
@@ -548,7 +548,7 @@ glfw-3.3.9/examples/CMakeFiles/simple.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.di
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/examples/CMakeFiles/simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/examples/CMakeFiles/simple.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/examples/CMakeFiles/simple.dir/rule
@@ -574,7 +574,7 @@ glfw-3.3.9/examples/CMakeFiles/splitview.dir/all: glfw-3.3.9/src/CMakeFiles/glfw
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/examples/CMakeFiles/splitview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/examples/CMakeFiles/splitview.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/examples/CMakeFiles/splitview.dir/rule
@@ -600,7 +600,7 @@ glfw-3.3.9/examples/CMakeFiles/wave.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/examples/CMakeFiles/wave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/examples/CMakeFiles/wave.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/examples/CMakeFiles/wave.dir/rule
@@ -626,7 +626,7 @@ glfw-3.3.9/tests/CMakeFiles/clipboard.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.di
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/clipboard.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/clipboard.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/clipboard.dir/rule
@@ -652,7 +652,7 @@ glfw-3.3.9/tests/CMakeFiles/events.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/a
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/events.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/events.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/events.dir/rule
@@ -678,7 +678,7 @@ glfw-3.3.9/tests/CMakeFiles/msaa.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/msaa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/msaa.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/msaa.dir/rule
@@ -699,7 +699,7 @@ glfw-3.3.9/tests/CMakeFiles/msaa.dir/clean:
 glfw-3.3.9/tests/CMakeFiles/glfwinfo.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw-3.3.9/tests/CMakeFiles/glfwinfo.dir/build.make glfw-3.3.9/tests/CMakeFiles/glfwinfo.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw-3.3.9/tests/CMakeFiles/glfwinfo.dir/build.make glfw-3.3.9/tests/CMakeFiles/glfwinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=42,43,44,45 "Built target glfwinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=42,43,44 "Built target glfwinfo"
 .PHONY : glfw-3.3.9/tests/CMakeFiles/glfwinfo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -725,12 +725,12 @@ glfw-3.3.9/tests/CMakeFiles/glfwinfo.dir/clean:
 glfw-3.3.9/tests/CMakeFiles/iconify.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw-3.3.9/tests/CMakeFiles/iconify.dir/build.make glfw-3.3.9/tests/CMakeFiles/iconify.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw-3.3.9/tests/CMakeFiles/iconify.dir/build.make glfw-3.3.9/tests/CMakeFiles/iconify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=50,51,52 "Built target iconify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=49,50,51 "Built target iconify"
 .PHONY : glfw-3.3.9/tests/CMakeFiles/iconify.dir/all
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/iconify.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/iconify.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/iconify.dir/rule
@@ -751,7 +751,7 @@ glfw-3.3.9/tests/CMakeFiles/iconify.dir/clean:
 glfw-3.3.9/tests/CMakeFiles/monitors.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw-3.3.9/tests/CMakeFiles/monitors.dir/build.make glfw-3.3.9/tests/CMakeFiles/monitors.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw-3.3.9/tests/CMakeFiles/monitors.dir/build.make glfw-3.3.9/tests/CMakeFiles/monitors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=62,63,64 "Built target monitors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=63,64 "Built target monitors"
 .PHONY : glfw-3.3.9/tests/CMakeFiles/monitors.dir/all
 
 # Build rule for subdir invocation for target.
@@ -782,7 +782,7 @@ glfw-3.3.9/tests/CMakeFiles/reopen.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/a
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/reopen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/reopen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/reopen.dir/rule
@@ -808,7 +808,7 @@ glfw-3.3.9/tests/CMakeFiles/cursor.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/a
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/cursor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/cursor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/cursor.dir/rule
@@ -834,7 +834,7 @@ glfw-3.3.9/tests/CMakeFiles/empty.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/al
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/empty.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/empty.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/empty.dir/rule
@@ -860,7 +860,7 @@ glfw-3.3.9/tests/CMakeFiles/gamma.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/al
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/gamma.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/gamma.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/gamma.dir/rule
@@ -881,12 +881,12 @@ glfw-3.3.9/tests/CMakeFiles/gamma.dir/clean:
 glfw-3.3.9/tests/CMakeFiles/icon.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw-3.3.9/tests/CMakeFiles/icon.dir/build.make glfw-3.3.9/tests/CMakeFiles/icon.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw-3.3.9/tests/CMakeFiles/icon.dir/build.make glfw-3.3.9/tests/CMakeFiles/icon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=48,49 "Built target icon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=47,48 "Built target icon"
 .PHONY : glfw-3.3.9/tests/CMakeFiles/icon.dir/all
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/icon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/icon.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/icon.dir/rule
@@ -907,12 +907,12 @@ glfw-3.3.9/tests/CMakeFiles/icon.dir/clean:
 glfw-3.3.9/tests/CMakeFiles/inputlag.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw-3.3.9/tests/CMakeFiles/inputlag.dir/build.make glfw-3.3.9/tests/CMakeFiles/inputlag.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw-3.3.9/tests/CMakeFiles/inputlag.dir/build.make glfw-3.3.9/tests/CMakeFiles/inputlag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=53,54 "Built target inputlag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/black/projects/tetris/build/CMakeFiles --progress-num=52,53,54 "Built target inputlag"
 .PHONY : glfw-3.3.9/tests/CMakeFiles/inputlag.dir/all
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/inputlag.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/inputlag.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/inputlag.dir/rule
@@ -938,7 +938,7 @@ glfw-3.3.9/tests/CMakeFiles/joysticks.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.di
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/joysticks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/joysticks.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/joysticks.dir/rule
@@ -964,7 +964,7 @@ glfw-3.3.9/tests/CMakeFiles/opacity.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/opacity.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/opacity.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/opacity.dir/rule
@@ -990,7 +990,7 @@ glfw-3.3.9/tests/CMakeFiles/tearing.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/tearing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/tearing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/tearing.dir/rule
@@ -1016,7 +1016,7 @@ glfw-3.3.9/tests/CMakeFiles/threads.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/threads.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/threads.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/threads.dir/rule
@@ -1042,7 +1042,7 @@ glfw-3.3.9/tests/CMakeFiles/timeout.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/timeout.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/timeout.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/timeout.dir/rule
@@ -1068,7 +1068,7 @@ glfw-3.3.9/tests/CMakeFiles/title.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/al
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/title.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/title.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/title.dir/rule
@@ -1094,7 +1094,7 @@ glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/all: glfw-3.3.9/src/CMakeFiles/g
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/rule
@@ -1120,7 +1120,7 @@ glfw-3.3.9/tests/CMakeFiles/windows.dir/all: glfw-3.3.9/src/CMakeFiles/glfw.dir/
 
 # Build rule for subdir invocation for target.
 glfw-3.3.9/tests/CMakeFiles/windows.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.9/tests/CMakeFiles/windows.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/projects/tetris/build/CMakeFiles 0
 .PHONY : glfw-3.3.9/tests/CMakeFiles/windows.dir/rule

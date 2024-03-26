@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/black/projects/tetris/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/main.cpp.o.d"
   "/home/black/projects/tetris/src/parser.cpp" "CMakeFiles/main.dir/src/parser.cpp.o" "gcc" "CMakeFiles/main.dir/src/parser.cpp.o.d"
   "/home/black/projects/tetris/src/program.cpp" "CMakeFiles/main.dir/src/program.cpp.o" "gcc" "CMakeFiles/main.dir/src/program.cpp.o.d"
+  "/home/black/projects/tetris/src/render.cpp" "CMakeFiles/main.dir/src/render.cpp.o" "gcc" "CMakeFiles/main.dir/src/render.cpp.o.d"
   "/home/black/projects/tetris/src/shapes.cpp" "CMakeFiles/main.dir/src/shapes.cpp.o" "gcc" "CMakeFiles/main.dir/src/shapes.cpp.o.d"
   "/home/black/projects/tetris/src/uniform.cpp" "CMakeFiles/main.dir/src/uniform.cpp.o" "gcc" "CMakeFiles/main.dir/src/uniform.cpp.o.d"
   )

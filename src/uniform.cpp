@@ -3,7 +3,7 @@
 
 void uniformMatrix4fv(GLuint program, const char* name, GLsizei count, GLboolean transpose, const GLfloat *value)
 {
-  GLsizei location = glGetUniformLocation(program, name);
+  GLint location = glGetUniformLocation(program, name);
   glUniformMatrix4fv(location, count, transpose, value);
 }
 void uniform4f(GLuint program, const char* name, float v0, float v1, float v2, float v3)

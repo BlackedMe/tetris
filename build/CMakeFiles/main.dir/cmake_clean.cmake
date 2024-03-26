@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/parser.cpp.o.d"
   "CMakeFiles/main.dir/src/program.cpp.o"
   "CMakeFiles/main.dir/src/program.cpp.o.d"
+  "CMakeFiles/main.dir/src/render.cpp.o"
+  "CMakeFiles/main.dir/src/render.cpp.o.d"
   "CMakeFiles/main.dir/src/shapes.cpp.o"
   "CMakeFiles/main.dir/src/shapes.cpp.o.d"
   "CMakeFiles/main.dir/src/uniform.cpp.o"

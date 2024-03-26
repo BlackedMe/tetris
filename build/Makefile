@@ -699,6 +699,30 @@ src/program.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/program.cpp.s
 .PHONY : src/program.cpp.s
 
+src/render.o: src/render.cpp.o
+.PHONY : src/render.o
+
+# target to build an object file
+src/render.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/render.cpp.o
+.PHONY : src/render.cpp.o
+
+src/render.i: src/render.cpp.i
+.PHONY : src/render.i
+
+# target to preprocess a source file
+src/render.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/render.cpp.i
+.PHONY : src/render.cpp.i
+
+src/render.s: src/render.cpp.s
+.PHONY : src/render.s
+
+# target to generate assembly for a file
+src/render.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/render.cpp.s
+.PHONY : src/render.cpp.s
+
 src/shapes.o: src/shapes.cpp.o
 .PHONY : src/shapes.o
 
@@ -805,6 +829,9 @@ help:
 	@echo "... src/program.o"
 	@echo "... src/program.i"
 	@echo "... src/program.s"
+	@echo "... src/render.o"
+	@echo "... src/render.i"
+	@echo "... src/render.s"
 	@echo "... src/shapes.o"
 	@echo "... src/shapes.i"
 	@echo "... src/shapes.s"
