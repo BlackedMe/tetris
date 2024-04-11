@@ -1,5 +1,5 @@
 glfw-3.3.9/examples/CMakeFiles/heightmap.dir/heightmap.c.o: \
- /home/black/coding/test/glfw-3.3.9/examples/heightmap.c \
+ /home/black/Desktop/projects/tetris/glfw-3.3.9/examples/heightmap.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -55,9 +55,9 @@ glfw-3.3.9/examples/CMakeFiles/heightmap.dir/heightmap.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/assert.h \
- /home/black/coding/test/glfw-3.3.9/deps/glad/gl.h \
- /home/black/coding/test/glfw-3.3.9/deps/glad/khrplatform.h \
+ /home/black/Desktop/projects/tetris/glfw-3.3.9/deps/glad/gl.h \
+ /home/black/Desktop/projects/tetris/glfw-3.3.9/deps/glad/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/black/coding/test/glfw-3.3.9/include/GLFW/glfw3.h
+ /home/black/Desktop/projects/tetris/glfw-3.3.9/include/GLFW/glfw3.h

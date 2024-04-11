@@ -1,4 +1,4 @@
-# Install script for directory: /home/black/coding/test/glfw-3.3.9/tests
+# Install script for directory: /home/black/Desktop/projects/tetris/glfw-3.3.9/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

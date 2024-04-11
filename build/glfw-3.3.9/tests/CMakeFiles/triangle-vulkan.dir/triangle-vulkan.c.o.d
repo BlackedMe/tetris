@@ -1,5 +1,5 @@
 glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o: \
- /home/black/coding/test/glfw-3.3.9/tests/triangle-vulkan.c \
+ /home/black/Desktop/projects/tetris/glfw-3.3.9/tests/triangle-vulkan.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -73,9 +73,9 @@ glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
- /home/black/coding/test/glfw-3.3.9/deps/glad/vulkan.h \
- /home/black/coding/test/glfw-3.3.9/deps/glad/vk_platform.h \
+ /home/black/Desktop/projects/tetris/glfw-3.3.9/deps/glad/vulkan.h \
+ /home/black/Desktop/projects/tetris/glfw-3.3.9/deps/glad/vk_platform.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/black/coding/test/glfw-3.3.9/include/GLFW/glfw3.h
+ /home/black/Desktop/projects/tetris/glfw-3.3.9/include/GLFW/glfw3.h

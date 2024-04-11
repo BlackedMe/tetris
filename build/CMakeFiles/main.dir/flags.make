@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/black/coding/test/src/include -I/home/black/coding/test/glad/include -I/home/black/coding/test/glfw-3.3.9/include -I/home/black/coding/test/glm -I/home/black/coding/test/glm/glm/..
+CXX_INCLUDES = -I/home/black/Desktop/projects/tetris/src/include -I/home/black/Desktop/projects/tetris/glad/include -I/home/black/Desktop/projects/tetris/glfw-3.3.9/include -I/home/black/Desktop/projects/tetris/glm -I/home/black/Desktop/projects/tetris/glm/glm/..
 
 CXX_FLAGS = 
 

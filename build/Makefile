@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/black/coding/test
+CMAKE_SOURCE_DIR = /home/black/Desktop/projects/tetris
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/black/coding/test/build
+CMAKE_BINARY_DIR = /home/black/Desktop/projects/tetris/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/coding/test/build/CMakeFiles /home/black/coding/test/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/Desktop/projects/tetris/build/CMakeFiles /home/black/Desktop/projects/tetris/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/coding/test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/Desktop/projects/tetris/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -603,29 +603,269 @@ windows/fast:
 	$(MAKE) $(MAKESILENT) -f glfw-3.3.9/tests/CMakeFiles/windows.dir/build.make glfw-3.3.9/tests/CMakeFiles/windows.dir/build
 .PHONY : windows/fast
 
-src/graphics.o: src/graphics.cpp.o
-.PHONY : src/graphics.o
+src/board.o: src/board.cpp.o
+.PHONY : src/board.o
 
 # target to build an object file
-src/graphics.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/graphics.cpp.o
-.PHONY : src/graphics.cpp.o
+src/board.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/board.cpp.o
+.PHONY : src/board.cpp.o
 
-src/graphics.i: src/graphics.cpp.i
-.PHONY : src/graphics.i
+src/board.i: src/board.cpp.i
+.PHONY : src/board.i
 
 # target to preprocess a source file
-src/graphics.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/graphics.cpp.i
-.PHONY : src/graphics.cpp.i
+src/board.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/board.cpp.i
+.PHONY : src/board.cpp.i
 
-src/graphics.s: src/graphics.cpp.s
-.PHONY : src/graphics.s
+src/board.s: src/board.cpp.s
+.PHONY : src/board.s
 
 # target to generate assembly for a file
-src/graphics.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/graphics.cpp.s
-.PHONY : src/graphics.cpp.s
+src/board.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/board.cpp.s
+.PHONY : src/board.cpp.s
+
+src/box.o: src/box.cpp.o
+.PHONY : src/box.o
+
+# target to build an object file
+src/box.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/box.cpp.o
+.PHONY : src/box.cpp.o
+
+src/box.i: src/box.cpp.i
+.PHONY : src/box.i
+
+# target to preprocess a source file
+src/box.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/box.cpp.i
+.PHONY : src/box.cpp.i
+
+src/box.s: src/box.cpp.s
+.PHONY : src/box.s
+
+# target to generate assembly for a file
+src/box.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/box.cpp.s
+.PHONY : src/box.cpp.s
+
+src/commands/command.o: src/commands/command.cpp.o
+.PHONY : src/commands/command.o
+
+# target to build an object file
+src/commands/command.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commands/command.cpp.o
+.PHONY : src/commands/command.cpp.o
+
+src/commands/command.i: src/commands/command.cpp.i
+.PHONY : src/commands/command.i
+
+# target to preprocess a source file
+src/commands/command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commands/command.cpp.i
+.PHONY : src/commands/command.cpp.i
+
+src/commands/command.s: src/commands/command.cpp.s
+.PHONY : src/commands/command.s
+
+# target to generate assembly for a file
+src/commands/command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commands/command.cpp.s
+.PHONY : src/commands/command.cpp.s
+
+src/commands/land.o: src/commands/land.cpp.o
+.PHONY : src/commands/land.o
+
+# target to build an object file
+src/commands/land.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commands/land.cpp.o
+.PHONY : src/commands/land.cpp.o
+
+src/commands/land.i: src/commands/land.cpp.i
+.PHONY : src/commands/land.i
+
+# target to preprocess a source file
+src/commands/land.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commands/land.cpp.i
+.PHONY : src/commands/land.cpp.i
+
+src/commands/land.s: src/commands/land.cpp.s
+.PHONY : src/commands/land.s
+
+# target to generate assembly for a file
+src/commands/land.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commands/land.cpp.s
+.PHONY : src/commands/land.cpp.s
+
+src/commands/rotateAnti.o: src/commands/rotateAnti.cpp.o
+.PHONY : src/commands/rotateAnti.o
+
+# target to build an object file
+src/commands/rotateAnti.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commands/rotateAnti.cpp.o
+.PHONY : src/commands/rotateAnti.cpp.o
+
+src/commands/rotateAnti.i: src/commands/rotateAnti.cpp.i
+.PHONY : src/commands/rotateAnti.i
+
+# target to preprocess a source file
+src/commands/rotateAnti.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commands/rotateAnti.cpp.i
+.PHONY : src/commands/rotateAnti.cpp.i
+
+src/commands/rotateAnti.s: src/commands/rotateAnti.cpp.s
+.PHONY : src/commands/rotateAnti.s
+
+# target to generate assembly for a file
+src/commands/rotateAnti.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commands/rotateAnti.cpp.s
+.PHONY : src/commands/rotateAnti.cpp.s
+
+src/commands/rotateClock.o: src/commands/rotateClock.cpp.o
+.PHONY : src/commands/rotateClock.o
+
+# target to build an object file
+src/commands/rotateClock.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commands/rotateClock.cpp.o
+.PHONY : src/commands/rotateClock.cpp.o
+
+src/commands/rotateClock.i: src/commands/rotateClock.cpp.i
+.PHONY : src/commands/rotateClock.i
+
+# target to preprocess a source file
+src/commands/rotateClock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commands/rotateClock.cpp.i
+.PHONY : src/commands/rotateClock.cpp.i
+
+src/commands/rotateClock.s: src/commands/rotateClock.cpp.s
+.PHONY : src/commands/rotateClock.s
+
+# target to generate assembly for a file
+src/commands/rotateClock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commands/rotateClock.cpp.s
+.PHONY : src/commands/rotateClock.cpp.s
+
+src/gameLogic.o: src/gameLogic.cpp.o
+.PHONY : src/gameLogic.o
+
+# target to build an object file
+src/gameLogic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/gameLogic.cpp.o
+.PHONY : src/gameLogic.cpp.o
+
+src/gameLogic.i: src/gameLogic.cpp.i
+.PHONY : src/gameLogic.i
+
+# target to preprocess a source file
+src/gameLogic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/gameLogic.cpp.i
+.PHONY : src/gameLogic.cpp.i
+
+src/gameLogic.s: src/gameLogic.cpp.s
+.PHONY : src/gameLogic.s
+
+# target to generate assembly for a file
+src/gameLogic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/gameLogic.cpp.s
+.PHONY : src/gameLogic.cpp.s
+
+src/gameState.o: src/gameState.cpp.o
+.PHONY : src/gameState.o
+
+# target to build an object file
+src/gameState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/gameState.cpp.o
+.PHONY : src/gameState.cpp.o
+
+src/gameState.i: src/gameState.cpp.i
+.PHONY : src/gameState.i
+
+# target to preprocess a source file
+src/gameState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/gameState.cpp.i
+.PHONY : src/gameState.cpp.i
+
+src/gameState.s: src/gameState.cpp.s
+.PHONY : src/gameState.s
+
+# target to generate assembly for a file
+src/gameState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/gameState.cpp.s
+.PHONY : src/gameState.cpp.s
+
+src/glfwHandler.o: src/glfwHandler.cpp.o
+.PHONY : src/glfwHandler.o
+
+# target to build an object file
+src/glfwHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/glfwHandler.cpp.o
+.PHONY : src/glfwHandler.cpp.o
+
+src/glfwHandler.i: src/glfwHandler.cpp.i
+.PHONY : src/glfwHandler.i
+
+# target to preprocess a source file
+src/glfwHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/glfwHandler.cpp.i
+.PHONY : src/glfwHandler.cpp.i
+
+src/glfwHandler.s: src/glfwHandler.cpp.s
+.PHONY : src/glfwHandler.s
+
+# target to generate assembly for a file
+src/glfwHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/glfwHandler.cpp.s
+.PHONY : src/glfwHandler.cpp.s
+
+src/input.o: src/input.cpp.o
+.PHONY : src/input.o
+
+# target to build an object file
+src/input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/input.cpp.o
+.PHONY : src/input.cpp.o
+
+src/input.i: src/input.cpp.i
+.PHONY : src/input.i
+
+# target to preprocess a source file
+src/input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/input.cpp.i
+.PHONY : src/input.cpp.i
+
+src/input.s: src/input.cpp.s
+.PHONY : src/input.s
+
+# target to generate assembly for a file
+src/input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/input.cpp.s
+.PHONY : src/input.cpp.s
+
+src/linkedList.o: src/linkedList.cpp.o
+.PHONY : src/linkedList.o
+
+# target to build an object file
+src/linkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/linkedList.cpp.o
+.PHONY : src/linkedList.cpp.o
+
+src/linkedList.i: src/linkedList.cpp.i
+.PHONY : src/linkedList.i
+
+# target to preprocess a source file
+src/linkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/linkedList.cpp.i
+.PHONY : src/linkedList.cpp.i
+
+src/linkedList.s: src/linkedList.cpp.s
+.PHONY : src/linkedList.s
+
+# target to generate assembly for a file
+src/linkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/linkedList.cpp.s
+.PHONY : src/linkedList.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -651,6 +891,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/mainLoop.o: src/mainLoop.cpp.o
+.PHONY : src/mainLoop.o
+
+# target to build an object file
+src/mainLoop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/mainLoop.cpp.o
+.PHONY : src/mainLoop.cpp.o
+
+src/mainLoop.i: src/mainLoop.cpp.i
+.PHONY : src/mainLoop.i
+
+# target to preprocess a source file
+src/mainLoop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/mainLoop.cpp.i
+.PHONY : src/mainLoop.cpp.i
+
+src/mainLoop.s: src/mainLoop.cpp.s
+.PHONY : src/mainLoop.s
+
+# target to generate assembly for a file
+src/mainLoop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/mainLoop.cpp.s
+.PHONY : src/mainLoop.cpp.s
+
 src/parser.o: src/parser.cpp.o
 .PHONY : src/parser.o
 
@@ -675,53 +939,77 @@ src/parser.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/parser.cpp.s
 .PHONY : src/parser.cpp.s
 
-src/program.o: src/program.cpp.o
-.PHONY : src/program.o
+src/renderer.o: src/renderer.cpp.o
+.PHONY : src/renderer.o
 
 # target to build an object file
-src/program.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/program.cpp.o
-.PHONY : src/program.cpp.o
+src/renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/renderer.cpp.o
+.PHONY : src/renderer.cpp.o
 
-src/program.i: src/program.cpp.i
-.PHONY : src/program.i
+src/renderer.i: src/renderer.cpp.i
+.PHONY : src/renderer.i
 
 # target to preprocess a source file
-src/program.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/program.cpp.i
-.PHONY : src/program.cpp.i
+src/renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/renderer.cpp.i
+.PHONY : src/renderer.cpp.i
 
-src/program.s: src/program.cpp.s
-.PHONY : src/program.s
+src/renderer.s: src/renderer.cpp.s
+.PHONY : src/renderer.s
 
 # target to generate assembly for a file
-src/program.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/program.cpp.s
-.PHONY : src/program.cpp.s
+src/renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/renderer.cpp.s
+.PHONY : src/renderer.cpp.s
 
-src/shapes.o: src/shapes.cpp.o
-.PHONY : src/shapes.o
+src/shader.o: src/shader.cpp.o
+.PHONY : src/shader.o
 
 # target to build an object file
-src/shapes.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shapes.cpp.o
-.PHONY : src/shapes.cpp.o
+src/shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shader.cpp.o
+.PHONY : src/shader.cpp.o
 
-src/shapes.i: src/shapes.cpp.i
-.PHONY : src/shapes.i
+src/shader.i: src/shader.cpp.i
+.PHONY : src/shader.i
 
 # target to preprocess a source file
-src/shapes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shapes.cpp.i
-.PHONY : src/shapes.cpp.i
+src/shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shader.cpp.i
+.PHONY : src/shader.cpp.i
 
-src/shapes.s: src/shapes.cpp.s
-.PHONY : src/shapes.s
+src/shader.s: src/shader.cpp.s
+.PHONY : src/shader.s
 
 # target to generate assembly for a file
-src/shapes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shapes.cpp.s
-.PHONY : src/shapes.cpp.s
+src/shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shader.cpp.s
+.PHONY : src/shader.cpp.s
+
+src/texture.o: src/texture.cpp.o
+.PHONY : src/texture.o
+
+# target to build an object file
+src/texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/texture.cpp.o
+.PHONY : src/texture.cpp.o
+
+src/texture.i: src/texture.cpp.i
+.PHONY : src/texture.i
+
+# target to preprocess a source file
+src/texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/texture.cpp.i
+.PHONY : src/texture.cpp.i
+
+src/texture.s: src/texture.cpp.s
+.PHONY : src/texture.s
+
+# target to generate assembly for a file
+src/texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/texture.cpp.s
+.PHONY : src/texture.cpp.s
 
 src/uniform.o: src/uniform.cpp.o
 .PHONY : src/uniform.o
@@ -746,6 +1034,30 @@ src/uniform.s: src/uniform.cpp.s
 src/uniform.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/uniform.cpp.s
 .PHONY : src/uniform.cpp.s
+
+src/update.o: src/update.cpp.o
+.PHONY : src/update.o
+
+# target to build an object file
+src/update.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/update.cpp.o
+.PHONY : src/update.cpp.o
+
+src/update.i: src/update.cpp.i
+.PHONY : src/update.i
+
+# target to preprocess a source file
+src/update.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/update.cpp.i
+.PHONY : src/update.cpp.i
+
+src/update.s: src/update.cpp.s
+.PHONY : src/update.s
+
+# target to generate assembly for a file
+src/update.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/update.cpp.s
+.PHONY : src/update.cpp.s
 
 # Help Target
 help:
@@ -793,24 +1105,63 @@ help:
 	@echo "... triangle-vulkan"
 	@echo "... wave"
 	@echo "... windows"
-	@echo "... src/graphics.o"
-	@echo "... src/graphics.i"
-	@echo "... src/graphics.s"
+	@echo "... src/board.o"
+	@echo "... src/board.i"
+	@echo "... src/board.s"
+	@echo "... src/box.o"
+	@echo "... src/box.i"
+	@echo "... src/box.s"
+	@echo "... src/commands/command.o"
+	@echo "... src/commands/command.i"
+	@echo "... src/commands/command.s"
+	@echo "... src/commands/land.o"
+	@echo "... src/commands/land.i"
+	@echo "... src/commands/land.s"
+	@echo "... src/commands/rotateAnti.o"
+	@echo "... src/commands/rotateAnti.i"
+	@echo "... src/commands/rotateAnti.s"
+	@echo "... src/commands/rotateClock.o"
+	@echo "... src/commands/rotateClock.i"
+	@echo "... src/commands/rotateClock.s"
+	@echo "... src/gameLogic.o"
+	@echo "... src/gameLogic.i"
+	@echo "... src/gameLogic.s"
+	@echo "... src/gameState.o"
+	@echo "... src/gameState.i"
+	@echo "... src/gameState.s"
+	@echo "... src/glfwHandler.o"
+	@echo "... src/glfwHandler.i"
+	@echo "... src/glfwHandler.s"
+	@echo "... src/input.o"
+	@echo "... src/input.i"
+	@echo "... src/input.s"
+	@echo "... src/linkedList.o"
+	@echo "... src/linkedList.i"
+	@echo "... src/linkedList.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mainLoop.o"
+	@echo "... src/mainLoop.i"
+	@echo "... src/mainLoop.s"
 	@echo "... src/parser.o"
 	@echo "... src/parser.i"
 	@echo "... src/parser.s"
-	@echo "... src/program.o"
-	@echo "... src/program.i"
-	@echo "... src/program.s"
-	@echo "... src/shapes.o"
-	@echo "... src/shapes.i"
-	@echo "... src/shapes.s"
+	@echo "... src/renderer.o"
+	@echo "... src/renderer.i"
+	@echo "... src/renderer.s"
+	@echo "... src/shader.o"
+	@echo "... src/shader.i"
+	@echo "... src/shader.s"
+	@echo "... src/texture.o"
+	@echo "... src/texture.i"
+	@echo "... src/texture.s"
 	@echo "... src/uniform.o"
 	@echo "... src/uniform.i"
 	@echo "... src/uniform.s"
+	@echo "... src/update.o"
+	@echo "... src/update.i"
+	@echo "... src/update.s"
 .PHONY : help
 
 

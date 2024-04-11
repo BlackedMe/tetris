@@ -1,7 +1,8 @@
 CMakeFiles/main.dir/src/uniform.cpp.o: \
- /home/black/coding/test/src/uniform.cpp /usr/include/stdc-predef.h \
- /home/black/coding/test/glad/include/glad/glad.h \
- /home/black/coding/test/glad/include/KHR/khrplatform.h \
+ /home/black/Desktop/projects/tetris/src/uniform.cpp \
+ /usr/include/stdc-predef.h \
+ /home/black/Desktop/projects/tetris/glad/include/glad/glad.h \
+ /home/black/Desktop/projects/tetris/glad/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -17,4 +18,4 @@ CMakeFiles/main.dir/src/uniform.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/black/coding/test/src/include/uniform.hpp
+ /home/black/Desktop/projects/tetris/src/include/uniform.hpp

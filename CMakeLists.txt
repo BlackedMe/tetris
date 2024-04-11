@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22.1)
-set(sources src/main.cpp src/parser.cpp src/uniform.cpp src/program.cpp src/graphics.cpp)
+set(sources src/main.cpp src/parser.cpp src/uniform.cpp src/mainLoop.cpp src/glfwHandler.cpp src/shader.cpp src/board.cpp src/box.cpp src/texture.cpp src/gameState.cpp src/gameLogic.cpp src/linkedList.cpp src/input.cpp src/update.cpp src/renderer.cpp src/commands/land.cpp src/commands/command.cpp src/commands/rotateAnti.cpp src/commands/rotateClock.cpp)
 add_executable(main ${sources})
 add_subdirectory(glad)
 add_subdirectory(glfw-3.3.9)

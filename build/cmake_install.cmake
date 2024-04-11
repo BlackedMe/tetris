@@ -1,4 +1,4 @@
-# Install script for directory: /home/black/coding/test
+# Install script for directory: /home/black/Desktop/projects/tetris
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,17 +44,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/black/coding/test/build/glad/cmake_install.cmake")
+  include("/home/black/Desktop/projects/tetris/build/glad/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/black/coding/test/build/glfw-3.3.9/cmake_install.cmake")
+  include("/home/black/Desktop/projects/tetris/build/glfw-3.3.9/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/black/coding/test/build/glm/cmake_install.cmake")
+  include("/home/black/Desktop/projects/tetris/build/glm/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/black/coding/test/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/black/Desktop/projects/tetris/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

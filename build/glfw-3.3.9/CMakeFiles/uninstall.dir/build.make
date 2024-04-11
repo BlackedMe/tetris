@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/black/coding/test
+CMAKE_SOURCE_DIR = /home/black/Desktop/projects/tetris
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/black/coding/test/build
+CMAKE_BINARY_DIR = /home/black/Desktop/projects/tetris/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include glfw-3.3.9/CMakeFiles/uninstall.dir/compiler_depend.make
 include glfw-3.3.9/CMakeFiles/uninstall.dir/progress.make
 
 glfw-3.3.9/CMakeFiles/uninstall:
-	cd /home/black/coding/test/build/glfw-3.3.9 && /usr/bin/cmake -P /home/black/coding/test/build/glfw-3.3.9/cmake_uninstall.cmake
+	cd /home/black/Desktop/projects/tetris/build/glfw-3.3.9 && /usr/bin/cmake -P /home/black/Desktop/projects/tetris/build/glfw-3.3.9/cmake_uninstall.cmake
 
 uninstall: glfw-3.3.9/CMakeFiles/uninstall
 uninstall: glfw-3.3.9/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ glfw-3.3.9/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : glfw-3.3.9/CMakeFiles/uninstall.dir/build
 
 glfw-3.3.9/CMakeFiles/uninstall.dir/clean:
-	cd /home/black/coding/test/build/glfw-3.3.9 && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/black/Desktop/projects/tetris/build/glfw-3.3.9 && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : glfw-3.3.9/CMakeFiles/uninstall.dir/clean
 
 glfw-3.3.9/CMakeFiles/uninstall.dir/depend:
-	cd /home/black/coding/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/coding/test /home/black/coding/test/glfw-3.3.9 /home/black/coding/test/build /home/black/coding/test/build/glfw-3.3.9 /home/black/coding/test/build/glfw-3.3.9/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/black/Desktop/projects/tetris/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/Desktop/projects/tetris /home/black/Desktop/projects/tetris/glfw-3.3.9 /home/black/Desktop/projects/tetris/build /home/black/Desktop/projects/tetris/build/glfw-3.3.9 /home/black/Desktop/projects/tetris/build/glfw-3.3.9/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : glfw-3.3.9/CMakeFiles/uninstall.dir/depend
 

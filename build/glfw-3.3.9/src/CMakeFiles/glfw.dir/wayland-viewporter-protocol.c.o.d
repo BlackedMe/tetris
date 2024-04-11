@@ -1,5 +1,5 @@
 glfw-3.3.9/src/CMakeFiles/glfw.dir/wayland-viewporter-protocol.c.o: \
- /home/black/coding/test/build/glfw-3.3.9/src/wayland-viewporter-protocol.c \
+ /home/black/Desktop/projects/tetris/build/glfw-3.3.9/src/wayland-viewporter-protocol.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

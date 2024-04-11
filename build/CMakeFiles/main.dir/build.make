@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/black/coding/test
+CMAKE_SOURCE_DIR = /home/black/Desktop/projects/tetris
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/black/coding/test/build
+CMAKE_BINARY_DIR = /home/black/Desktop/projects/tetris/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -72,105 +72,313 @@ include CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /home/black/coding/test/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /home/black/Desktop/projects/tetris/src/main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/coding/test/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
 
 CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/coding/test/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
-
-CMakeFiles/main.dir/src/shapes.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/shapes.cpp.o: ../src/shapes.cpp
-CMakeFiles/main.dir/src/shapes.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/shapes.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/shapes.cpp.o -MF CMakeFiles/main.dir/src/shapes.cpp.o.d -o CMakeFiles/main.dir/src/shapes.cpp.o -c /home/black/coding/test/src/shapes.cpp
-
-CMakeFiles/main.dir/src/shapes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/shapes.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/coding/test/src/shapes.cpp > CMakeFiles/main.dir/src/shapes.cpp.i
-
-CMakeFiles/main.dir/src/shapes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/shapes.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/coding/test/src/shapes.cpp -o CMakeFiles/main.dir/src/shapes.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
 
 CMakeFiles/main.dir/src/parser.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/parser.cpp.o: ../src/parser.cpp
 CMakeFiles/main.dir/src/parser.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/parser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/parser.cpp.o -MF CMakeFiles/main.dir/src/parser.cpp.o.d -o CMakeFiles/main.dir/src/parser.cpp.o -c /home/black/coding/test/src/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/parser.cpp.o -MF CMakeFiles/main.dir/src/parser.cpp.o.d -o CMakeFiles/main.dir/src/parser.cpp.o -c /home/black/Desktop/projects/tetris/src/parser.cpp
 
 CMakeFiles/main.dir/src/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/coding/test/src/parser.cpp > CMakeFiles/main.dir/src/parser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/parser.cpp > CMakeFiles/main.dir/src/parser.cpp.i
 
 CMakeFiles/main.dir/src/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/coding/test/src/parser.cpp -o CMakeFiles/main.dir/src/parser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/parser.cpp -o CMakeFiles/main.dir/src/parser.cpp.s
 
 CMakeFiles/main.dir/src/uniform.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/uniform.cpp.o: ../src/uniform.cpp
 CMakeFiles/main.dir/src/uniform.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/uniform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/uniform.cpp.o -MF CMakeFiles/main.dir/src/uniform.cpp.o.d -o CMakeFiles/main.dir/src/uniform.cpp.o -c /home/black/coding/test/src/uniform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/uniform.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/uniform.cpp.o -MF CMakeFiles/main.dir/src/uniform.cpp.o.d -o CMakeFiles/main.dir/src/uniform.cpp.o -c /home/black/Desktop/projects/tetris/src/uniform.cpp
 
 CMakeFiles/main.dir/src/uniform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/uniform.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/coding/test/src/uniform.cpp > CMakeFiles/main.dir/src/uniform.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/uniform.cpp > CMakeFiles/main.dir/src/uniform.cpp.i
 
 CMakeFiles/main.dir/src/uniform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/uniform.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/coding/test/src/uniform.cpp -o CMakeFiles/main.dir/src/uniform.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/uniform.cpp -o CMakeFiles/main.dir/src/uniform.cpp.s
 
-CMakeFiles/main.dir/src/program.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/program.cpp.o: ../src/program.cpp
-CMakeFiles/main.dir/src/program.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/program.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/program.cpp.o -MF CMakeFiles/main.dir/src/program.cpp.o.d -o CMakeFiles/main.dir/src/program.cpp.o -c /home/black/coding/test/src/program.cpp
+CMakeFiles/main.dir/src/mainLoop.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/mainLoop.cpp.o: ../src/mainLoop.cpp
+CMakeFiles/main.dir/src/mainLoop.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/mainLoop.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/mainLoop.cpp.o -MF CMakeFiles/main.dir/src/mainLoop.cpp.o.d -o CMakeFiles/main.dir/src/mainLoop.cpp.o -c /home/black/Desktop/projects/tetris/src/mainLoop.cpp
 
-CMakeFiles/main.dir/src/program.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/program.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/coding/test/src/program.cpp > CMakeFiles/main.dir/src/program.cpp.i
+CMakeFiles/main.dir/src/mainLoop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/mainLoop.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/mainLoop.cpp > CMakeFiles/main.dir/src/mainLoop.cpp.i
 
-CMakeFiles/main.dir/src/program.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/program.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/coding/test/src/program.cpp -o CMakeFiles/main.dir/src/program.cpp.s
+CMakeFiles/main.dir/src/mainLoop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/mainLoop.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/mainLoop.cpp -o CMakeFiles/main.dir/src/mainLoop.cpp.s
 
-CMakeFiles/main.dir/src/graphics.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/graphics.cpp.o: ../src/graphics.cpp
-CMakeFiles/main.dir/src/graphics.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/graphics.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/graphics.cpp.o -MF CMakeFiles/main.dir/src/graphics.cpp.o.d -o CMakeFiles/main.dir/src/graphics.cpp.o -c /home/black/coding/test/src/graphics.cpp
+CMakeFiles/main.dir/src/glfwHandler.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/glfwHandler.cpp.o: ../src/glfwHandler.cpp
+CMakeFiles/main.dir/src/glfwHandler.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/glfwHandler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/glfwHandler.cpp.o -MF CMakeFiles/main.dir/src/glfwHandler.cpp.o.d -o CMakeFiles/main.dir/src/glfwHandler.cpp.o -c /home/black/Desktop/projects/tetris/src/glfwHandler.cpp
 
-CMakeFiles/main.dir/src/graphics.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/graphics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/coding/test/src/graphics.cpp > CMakeFiles/main.dir/src/graphics.cpp.i
+CMakeFiles/main.dir/src/glfwHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/glfwHandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/glfwHandler.cpp > CMakeFiles/main.dir/src/glfwHandler.cpp.i
 
-CMakeFiles/main.dir/src/graphics.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/graphics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/coding/test/src/graphics.cpp -o CMakeFiles/main.dir/src/graphics.cpp.s
+CMakeFiles/main.dir/src/glfwHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/glfwHandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/glfwHandler.cpp -o CMakeFiles/main.dir/src/glfwHandler.cpp.s
+
+CMakeFiles/main.dir/src/shader.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/shader.cpp.o: ../src/shader.cpp
+CMakeFiles/main.dir/src/shader.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/shader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/shader.cpp.o -MF CMakeFiles/main.dir/src/shader.cpp.o.d -o CMakeFiles/main.dir/src/shader.cpp.o -c /home/black/Desktop/projects/tetris/src/shader.cpp
+
+CMakeFiles/main.dir/src/shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/shader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/shader.cpp > CMakeFiles/main.dir/src/shader.cpp.i
+
+CMakeFiles/main.dir/src/shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/shader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/shader.cpp -o CMakeFiles/main.dir/src/shader.cpp.s
+
+CMakeFiles/main.dir/src/board.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/board.cpp.o: ../src/board.cpp
+CMakeFiles/main.dir/src/board.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/board.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/board.cpp.o -MF CMakeFiles/main.dir/src/board.cpp.o.d -o CMakeFiles/main.dir/src/board.cpp.o -c /home/black/Desktop/projects/tetris/src/board.cpp
+
+CMakeFiles/main.dir/src/board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/board.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/board.cpp > CMakeFiles/main.dir/src/board.cpp.i
+
+CMakeFiles/main.dir/src/board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/board.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/board.cpp -o CMakeFiles/main.dir/src/board.cpp.s
+
+CMakeFiles/main.dir/src/box.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/box.cpp.o: ../src/box.cpp
+CMakeFiles/main.dir/src/box.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/box.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/box.cpp.o -MF CMakeFiles/main.dir/src/box.cpp.o.d -o CMakeFiles/main.dir/src/box.cpp.o -c /home/black/Desktop/projects/tetris/src/box.cpp
+
+CMakeFiles/main.dir/src/box.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/box.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/box.cpp > CMakeFiles/main.dir/src/box.cpp.i
+
+CMakeFiles/main.dir/src/box.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/box.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/box.cpp -o CMakeFiles/main.dir/src/box.cpp.s
+
+CMakeFiles/main.dir/src/texture.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/texture.cpp.o: ../src/texture.cpp
+CMakeFiles/main.dir/src/texture.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/texture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/texture.cpp.o -MF CMakeFiles/main.dir/src/texture.cpp.o.d -o CMakeFiles/main.dir/src/texture.cpp.o -c /home/black/Desktop/projects/tetris/src/texture.cpp
+
+CMakeFiles/main.dir/src/texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/texture.cpp > CMakeFiles/main.dir/src/texture.cpp.i
+
+CMakeFiles/main.dir/src/texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/texture.cpp -o CMakeFiles/main.dir/src/texture.cpp.s
+
+CMakeFiles/main.dir/src/gameState.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/gameState.cpp.o: ../src/gameState.cpp
+CMakeFiles/main.dir/src/gameState.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/gameState.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/gameState.cpp.o -MF CMakeFiles/main.dir/src/gameState.cpp.o.d -o CMakeFiles/main.dir/src/gameState.cpp.o -c /home/black/Desktop/projects/tetris/src/gameState.cpp
+
+CMakeFiles/main.dir/src/gameState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/gameState.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/gameState.cpp > CMakeFiles/main.dir/src/gameState.cpp.i
+
+CMakeFiles/main.dir/src/gameState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/gameState.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/gameState.cpp -o CMakeFiles/main.dir/src/gameState.cpp.s
+
+CMakeFiles/main.dir/src/gameLogic.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/gameLogic.cpp.o: ../src/gameLogic.cpp
+CMakeFiles/main.dir/src/gameLogic.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/gameLogic.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/gameLogic.cpp.o -MF CMakeFiles/main.dir/src/gameLogic.cpp.o.d -o CMakeFiles/main.dir/src/gameLogic.cpp.o -c /home/black/Desktop/projects/tetris/src/gameLogic.cpp
+
+CMakeFiles/main.dir/src/gameLogic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/gameLogic.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/gameLogic.cpp > CMakeFiles/main.dir/src/gameLogic.cpp.i
+
+CMakeFiles/main.dir/src/gameLogic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/gameLogic.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/gameLogic.cpp -o CMakeFiles/main.dir/src/gameLogic.cpp.s
+
+CMakeFiles/main.dir/src/linkedList.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/linkedList.cpp.o: ../src/linkedList.cpp
+CMakeFiles/main.dir/src/linkedList.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/src/linkedList.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/linkedList.cpp.o -MF CMakeFiles/main.dir/src/linkedList.cpp.o.d -o CMakeFiles/main.dir/src/linkedList.cpp.o -c /home/black/Desktop/projects/tetris/src/linkedList.cpp
+
+CMakeFiles/main.dir/src/linkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/linkedList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/linkedList.cpp > CMakeFiles/main.dir/src/linkedList.cpp.i
+
+CMakeFiles/main.dir/src/linkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/linkedList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/linkedList.cpp -o CMakeFiles/main.dir/src/linkedList.cpp.s
+
+CMakeFiles/main.dir/src/input.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/input.cpp.o: ../src/input.cpp
+CMakeFiles/main.dir/src/input.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/src/input.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/input.cpp.o -MF CMakeFiles/main.dir/src/input.cpp.o.d -o CMakeFiles/main.dir/src/input.cpp.o -c /home/black/Desktop/projects/tetris/src/input.cpp
+
+CMakeFiles/main.dir/src/input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/input.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/input.cpp > CMakeFiles/main.dir/src/input.cpp.i
+
+CMakeFiles/main.dir/src/input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/input.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/input.cpp -o CMakeFiles/main.dir/src/input.cpp.s
+
+CMakeFiles/main.dir/src/update.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/update.cpp.o: ../src/update.cpp
+CMakeFiles/main.dir/src/update.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/src/update.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/update.cpp.o -MF CMakeFiles/main.dir/src/update.cpp.o.d -o CMakeFiles/main.dir/src/update.cpp.o -c /home/black/Desktop/projects/tetris/src/update.cpp
+
+CMakeFiles/main.dir/src/update.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/update.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/update.cpp > CMakeFiles/main.dir/src/update.cpp.i
+
+CMakeFiles/main.dir/src/update.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/update.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/update.cpp -o CMakeFiles/main.dir/src/update.cpp.s
+
+CMakeFiles/main.dir/src/renderer.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/renderer.cpp.o: ../src/renderer.cpp
+CMakeFiles/main.dir/src/renderer.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/src/renderer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/renderer.cpp.o -MF CMakeFiles/main.dir/src/renderer.cpp.o.d -o CMakeFiles/main.dir/src/renderer.cpp.o -c /home/black/Desktop/projects/tetris/src/renderer.cpp
+
+CMakeFiles/main.dir/src/renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/renderer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/renderer.cpp > CMakeFiles/main.dir/src/renderer.cpp.i
+
+CMakeFiles/main.dir/src/renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/renderer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/renderer.cpp -o CMakeFiles/main.dir/src/renderer.cpp.s
+
+CMakeFiles/main.dir/src/commands/land.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/commands/land.cpp.o: ../src/commands/land.cpp
+CMakeFiles/main.dir/src/commands/land.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/src/commands/land.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/commands/land.cpp.o -MF CMakeFiles/main.dir/src/commands/land.cpp.o.d -o CMakeFiles/main.dir/src/commands/land.cpp.o -c /home/black/Desktop/projects/tetris/src/commands/land.cpp
+
+CMakeFiles/main.dir/src/commands/land.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/commands/land.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/commands/land.cpp > CMakeFiles/main.dir/src/commands/land.cpp.i
+
+CMakeFiles/main.dir/src/commands/land.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/commands/land.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/commands/land.cpp -o CMakeFiles/main.dir/src/commands/land.cpp.s
+
+CMakeFiles/main.dir/src/commands/command.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/commands/command.cpp.o: ../src/commands/command.cpp
+CMakeFiles/main.dir/src/commands/command.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.dir/src/commands/command.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/commands/command.cpp.o -MF CMakeFiles/main.dir/src/commands/command.cpp.o.d -o CMakeFiles/main.dir/src/commands/command.cpp.o -c /home/black/Desktop/projects/tetris/src/commands/command.cpp
+
+CMakeFiles/main.dir/src/commands/command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/commands/command.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/commands/command.cpp > CMakeFiles/main.dir/src/commands/command.cpp.i
+
+CMakeFiles/main.dir/src/commands/command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/commands/command.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/commands/command.cpp -o CMakeFiles/main.dir/src/commands/command.cpp.s
+
+CMakeFiles/main.dir/src/commands/rotateAnti.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/commands/rotateAnti.cpp.o: ../src/commands/rotateAnti.cpp
+CMakeFiles/main.dir/src/commands/rotateAnti.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main.dir/src/commands/rotateAnti.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/commands/rotateAnti.cpp.o -MF CMakeFiles/main.dir/src/commands/rotateAnti.cpp.o.d -o CMakeFiles/main.dir/src/commands/rotateAnti.cpp.o -c /home/black/Desktop/projects/tetris/src/commands/rotateAnti.cpp
+
+CMakeFiles/main.dir/src/commands/rotateAnti.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/commands/rotateAnti.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/commands/rotateAnti.cpp > CMakeFiles/main.dir/src/commands/rotateAnti.cpp.i
+
+CMakeFiles/main.dir/src/commands/rotateAnti.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/commands/rotateAnti.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/commands/rotateAnti.cpp -o CMakeFiles/main.dir/src/commands/rotateAnti.cpp.s
+
+CMakeFiles/main.dir/src/commands/rotateClock.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/commands/rotateClock.cpp.o: ../src/commands/rotateClock.cpp
+CMakeFiles/main.dir/src/commands/rotateClock.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/main.dir/src/commands/rotateClock.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/commands/rotateClock.cpp.o -MF CMakeFiles/main.dir/src/commands/rotateClock.cpp.o.d -o CMakeFiles/main.dir/src/commands/rotateClock.cpp.o -c /home/black/Desktop/projects/tetris/src/commands/rotateClock.cpp
+
+CMakeFiles/main.dir/src/commands/rotateClock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/commands/rotateClock.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/black/Desktop/projects/tetris/src/commands/rotateClock.cpp > CMakeFiles/main.dir/src/commands/rotateClock.cpp.i
+
+CMakeFiles/main.dir/src/commands/rotateClock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/commands/rotateClock.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/black/Desktop/projects/tetris/src/commands/rotateClock.cpp -o CMakeFiles/main.dir/src/commands/rotateClock.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/main.cpp.o" \
-"CMakeFiles/main.dir/src/shapes.cpp.o" \
 "CMakeFiles/main.dir/src/parser.cpp.o" \
 "CMakeFiles/main.dir/src/uniform.cpp.o" \
-"CMakeFiles/main.dir/src/program.cpp.o" \
-"CMakeFiles/main.dir/src/graphics.cpp.o"
+"CMakeFiles/main.dir/src/mainLoop.cpp.o" \
+"CMakeFiles/main.dir/src/glfwHandler.cpp.o" \
+"CMakeFiles/main.dir/src/shader.cpp.o" \
+"CMakeFiles/main.dir/src/board.cpp.o" \
+"CMakeFiles/main.dir/src/box.cpp.o" \
+"CMakeFiles/main.dir/src/texture.cpp.o" \
+"CMakeFiles/main.dir/src/gameState.cpp.o" \
+"CMakeFiles/main.dir/src/gameLogic.cpp.o" \
+"CMakeFiles/main.dir/src/linkedList.cpp.o" \
+"CMakeFiles/main.dir/src/input.cpp.o" \
+"CMakeFiles/main.dir/src/update.cpp.o" \
+"CMakeFiles/main.dir/src/renderer.cpp.o" \
+"CMakeFiles/main.dir/src/commands/land.cpp.o" \
+"CMakeFiles/main.dir/src/commands/command.cpp.o" \
+"CMakeFiles/main.dir/src/commands/rotateAnti.cpp.o" \
+"CMakeFiles/main.dir/src/commands/rotateClock.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/src/main.cpp.o
-main: CMakeFiles/main.dir/src/shapes.cpp.o
 main: CMakeFiles/main.dir/src/parser.cpp.o
 main: CMakeFiles/main.dir/src/uniform.cpp.o
-main: CMakeFiles/main.dir/src/program.cpp.o
-main: CMakeFiles/main.dir/src/graphics.cpp.o
+main: CMakeFiles/main.dir/src/mainLoop.cpp.o
+main: CMakeFiles/main.dir/src/glfwHandler.cpp.o
+main: CMakeFiles/main.dir/src/shader.cpp.o
+main: CMakeFiles/main.dir/src/board.cpp.o
+main: CMakeFiles/main.dir/src/box.cpp.o
+main: CMakeFiles/main.dir/src/texture.cpp.o
+main: CMakeFiles/main.dir/src/gameState.cpp.o
+main: CMakeFiles/main.dir/src/gameLogic.cpp.o
+main: CMakeFiles/main.dir/src/linkedList.cpp.o
+main: CMakeFiles/main.dir/src/input.cpp.o
+main: CMakeFiles/main.dir/src/update.cpp.o
+main: CMakeFiles/main.dir/src/renderer.cpp.o
+main: CMakeFiles/main.dir/src/commands/land.cpp.o
+main: CMakeFiles/main.dir/src/commands/command.cpp.o
+main: CMakeFiles/main.dir/src/commands/rotateAnti.cpp.o
+main: CMakeFiles/main.dir/src/commands/rotateClock.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: glad/libglad.a
 main: glfw-3.3.9/src/libglfw3.a
@@ -182,7 +390,7 @@ main: /usr/lib/x86_64-linux-gnu/libwayland-egl.so
 main: /usr/lib/x86_64-linux-gnu/libGLX.so
 main: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -194,6 +402,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/black/coding/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/coding/test /home/black/coding/test /home/black/coding/test/build /home/black/coding/test/build /home/black/coding/test/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/black/Desktop/projects/tetris/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/Desktop/projects/tetris /home/black/Desktop/projects/tetris /home/black/Desktop/projects/tetris/build /home/black/Desktop/projects/tetris/build /home/black/Desktop/projects/tetris/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

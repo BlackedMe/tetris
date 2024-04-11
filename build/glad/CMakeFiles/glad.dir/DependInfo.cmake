@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/black/coding/test/glad/src/glad.c" "glad/CMakeFiles/glad.dir/src/glad.c.o" "gcc" "glad/CMakeFiles/glad.dir/src/glad.c.o.d"
+  "/home/black/Desktop/projects/tetris/glad/src/glad.c" "glad/CMakeFiles/glad.dir/src/glad.c.o" "gcc" "glad/CMakeFiles/glad.dir/src/glad.c.o.d"
   )
 
 # Targets to which this target links.

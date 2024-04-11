@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/black/coding/test
+CMAKE_SOURCE_DIR = /home/black/Desktop/projects/tetris
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/black/coding/test/build
+CMAKE_BINARY_DIR = /home/black/Desktop/projects/tetris/build
 
 # Include any dependencies generated for this target.
 include glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/depend.make
@@ -72,30 +72,30 @@ include glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/flags.make
 glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o: glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/flags.make
 glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o: ../glfw-3.3.9/tests/triangle-vulkan.c
 glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o: glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o -MF CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o.d -o CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o -c /home/black/coding/test/glfw-3.3.9/tests/triangle-vulkan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o"
+	cd /home/black/Desktop/projects/tetris/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o -MF CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o.d -o CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o -c /home/black/Desktop/projects/tetris/glfw-3.3.9/tests/triangle-vulkan.c
 
 glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/coding/test/glfw-3.3.9/tests/triangle-vulkan.c > CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.i
+	cd /home/black/Desktop/projects/tetris/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/Desktop/projects/tetris/glfw-3.3.9/tests/triangle-vulkan.c > CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.i
 
 glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/coding/test/glfw-3.3.9/tests/triangle-vulkan.c -o CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.s
+	cd /home/black/Desktop/projects/tetris/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/Desktop/projects/tetris/glfw-3.3.9/tests/triangle-vulkan.c -o CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.s
 
 glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o: glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/flags.make
 glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o: ../glfw-3.3.9/deps/glad_vulkan.c
 glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o: glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o"
-	cd /home/black/coding/test/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o -MF CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o.d -o CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o -c /home/black/coding/test/glfw-3.3.9/deps/glad_vulkan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o"
+	cd /home/black/Desktop/projects/tetris/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o -MF CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o.d -o CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o -c /home/black/Desktop/projects/tetris/glfw-3.3.9/deps/glad_vulkan.c
 
 glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.i"
-	cd /home/black/coding/test/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/coding/test/glfw-3.3.9/deps/glad_vulkan.c > CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.i
+	cd /home/black/Desktop/projects/tetris/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/black/Desktop/projects/tetris/glfw-3.3.9/deps/glad_vulkan.c > CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.i
 
 glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.s"
-	cd /home/black/coding/test/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/coding/test/glfw-3.3.9/deps/glad_vulkan.c -o CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.s
+	cd /home/black/Desktop/projects/tetris/build/glfw-3.3.9/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/black/Desktop/projects/tetris/glfw-3.3.9/deps/glad_vulkan.c -o CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.s
 
 # Object files for target triangle-vulkan
 triangle__vulkan_OBJECTS = \
@@ -116,18 +116,18 @@ glfw-3.3.9/tests/triangle-vulkan: /usr/lib/x86_64-linux-gnu/libwayland-client.so
 glfw-3.3.9/tests/triangle-vulkan: /usr/lib/x86_64-linux-gnu/libwayland-cursor.so
 glfw-3.3.9/tests/triangle-vulkan: /usr/lib/x86_64-linux-gnu/libwayland-egl.so
 glfw-3.3.9/tests/triangle-vulkan: glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/black/coding/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable triangle-vulkan"
-	cd /home/black/coding/test/build/glfw-3.3.9/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/triangle-vulkan.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/black/Desktop/projects/tetris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable triangle-vulkan"
+	cd /home/black/Desktop/projects/tetris/build/glfw-3.3.9/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/triangle-vulkan.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/build: glfw-3.3.9/tests/triangle-vulkan
 .PHONY : glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/build
 
 glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/clean:
-	cd /home/black/coding/test/build/glfw-3.3.9/tests && $(CMAKE_COMMAND) -P CMakeFiles/triangle-vulkan.dir/cmake_clean.cmake
+	cd /home/black/Desktop/projects/tetris/build/glfw-3.3.9/tests && $(CMAKE_COMMAND) -P CMakeFiles/triangle-vulkan.dir/cmake_clean.cmake
 .PHONY : glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/clean
 
 glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/depend:
-	cd /home/black/coding/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/coding/test /home/black/coding/test/glfw-3.3.9/tests /home/black/coding/test/build /home/black/coding/test/build/glfw-3.3.9/tests /home/black/coding/test/build/glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/black/Desktop/projects/tetris/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/Desktop/projects/tetris /home/black/Desktop/projects/tetris/glfw-3.3.9/tests /home/black/Desktop/projects/tetris/build /home/black/Desktop/projects/tetris/build/glfw-3.3.9/tests /home/black/Desktop/projects/tetris/build/glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/black/coding/test/glad
+# Install script for directory: /home/black/Desktop/projects/tetris/glad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
